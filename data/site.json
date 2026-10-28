@@ -12,7 +12,19 @@
    "type": "Combattant",
    "cost": 6,
    "atk": 4,
-   "hp": 4
+   "hp": 4,
+   "traits": [
+    "Saiyan",
+    "Artiste Martial",
+    "Super Guerrier"
+   ],
+   "keywords": [
+    {
+     "name": "Rush",
+     "hint": "peut attaquer un Combattant dès l'arrivée, pas le Leader"
+    }
+   ],
+   "text": "À l'arrivée, seulement si vous avez un autre Combattant Saiyan : inflige 3 dégâts à tous les Combattants adverses, gagne +3/+3 (définitif), détruit un de vos autres Combattants Saiyans ciblé, puis inflige à un Combattant adverse ciblé des dégâts égaux à l'ATK qu'avait ce Saiyan. Sans autre Saiyan, aucun effet."
   },
   {
    "key": "genryusai_yamamoto",
@@ -21,7 +33,20 @@
    "type": "Combattant",
    "cost": 9,
    "atk": 7,
-   "hp": 8
+   "hp": 8,
+   "traits": [
+    "Shinigami",
+    "Gotei 13",
+    "Spirituel",
+    "Épéiste"
+   ],
+   "keywords": [
+    {
+     "name": "Rush",
+     "hint": "peut attaquer un Combattant dès l'arrivée, pas le Leader"
+    }
+   ],
+   "text": "À l'arrivée : inflige 4 dégâts à tous les AUTRES Combattants des deux terrains (les vôtres compris), puis piochez 3 cartes de Trait Gotei 13 de votre deck et baissez leur coût de 3. Enfin, vous regagnez 1 Nekketsu par carte Gotei 13 dans votre main (5 au maximum)."
   },
   {
    "key": "polymerisation",
@@ -30,7 +55,10 @@
    "type": "Action",
    "cost": 5,
    "atk": null,
-   "hp": null
+   "hp": null,
+   "traits": [],
+   "keywords": [],
+   "text": "Fusionne tout de suite deux Combattants qui ont la même Union, qu'ils soient sur votre terrain ou dans votre main. Vous choisissez la fusion (s'il y en a plusieurs) et les deux Combattants. Le résultat arrive sur votre terrain : il faut une place libre pour lui."
   },
   {
    "key": "c16",
@@ -39,7 +67,13 @@
    "type": "Combattant",
    "cost": 8,
    "atk": 0,
-   "hp": 4
+   "hp": 4,
+   "traits": [
+    "Cyborg",
+    "Super Guerrier"
+   ],
+   "keywords": [],
+   "text": "Dernier Souffle : invoque Gohan (Enfant) puis le fait évoluer."
   },
   {
    "key": "commando_ginyu_rassemblement",
@@ -48,7 +82,12 @@
    "type": "Action",
    "cost": 10,
    "atk": null,
-   "hp": null
+   "hp": null,
+   "traits": [
+    "Commando Ginyu"
+   ],
+   "keywords": [],
+   "text": "Jouable seulement si votre terrain est vide. Invoque Capitaine Ginyu, Jeece, Barta, Guldo et Recoom depuis l'extérieur de votre deck, puis piochez 2 cartes."
   },
   {
    "key": "super_vegeta",
@@ -57,7 +96,27 @@
    "type": "Combattant",
    "cost": 8,
    "atk": 5,
-   "hp": 6
+   "hp": 6,
+   "traits": [
+    "Saiyan",
+    "Super Saiyan",
+    "Artiste Martial",
+    "Super Guerrier"
+   ],
+   "keywords": [
+    {
+     "name": "Rush",
+     "hint": "peut attaquer un Combattant dès l'arrivée, pas le Leader"
+    }
+   ],
+   "text": "À l'arrivée : gagne +1 ATK (permanent) et vous rend 1 Nekketsu par Combattant Saiyan sur votre terrain (lui compris). Ajoute aussi Big Bang Attack à votre main (depuis l'extérieur du deck).",
+   "evolution": {
+    "name": "Super Vegeta",
+    "zenkai": 2,
+    "atk": 3,
+    "hp": 2,
+    "text": ""
+   }
   },
   {
    "key": "erza_scarlet",
@@ -66,7 +125,26 @@
    "type": "Combattant",
    "cost": 6,
    "atk": 5,
-   "hp": 1
+   "hp": 1,
+   "traits": [
+    "Humain",
+    "Épéiste",
+    "Mage"
+   ],
+   "keywords": [
+    {
+     "name": "Fulgurance",
+     "hint": "comme Rush, mais peut en plus attaquer le Leader adverse dès l'arrivée, sans attendre"
+    }
+   ],
+   "text": "Si votre Nekketsu max est à 10, cette carte ne peut plus être ciblée par une attaque adverse.",
+   "evolution": {
+    "name": "Erza Scarlet",
+    "zenkai": 2,
+    "atk": 2,
+    "hp": 2,
+    "text": ""
+   }
   },
   {
    "key": "monkey_d_luffy",
@@ -75,7 +153,21 @@
    "type": "Combattant",
    "cost": 7,
    "atk": 6,
-   "hp": 6
+   "hp": 6,
+   "traits": [
+    "Humain",
+    "Pirate",
+    "Fruit du Démon"
+   ],
+   "keywords": [],
+   "text": "À l'arrivée : tous les Combattants adverses perdent 2 ATK jusqu'à la fin du prochain tour adverse.",
+   "evolution": {
+    "name": "Monkey D. Luffy",
+    "zenkai": 2,
+    "atk": 2,
+    "hp": 2,
+    "text": "tous les Combattants adverses perdent Rempart et Rush définitivement et perdent 4 ATK jusqu'à la fin du prochain tour adverse."
+   }
   },
   {
    "key": "toshiro_hitsugaya",
@@ -84,7 +176,22 @@
    "type": "Combattant",
    "cost": 8,
    "atk": 6,
-   "hp": 5
+   "hp": 5,
+   "traits": [
+    "Shinigami",
+    "Épéiste",
+    "Gotei 13",
+    "Spirituel"
+   ],
+   "keywords": [],
+   "text": "",
+   "evolution": {
+    "name": "Toshiro Hitsugaya — Bankai",
+    "zenkai": 2,
+    "atk": 2,
+    "hp": 1,
+    "text": "invoque la Tactique Hyoten Hyakkaso depuis l'extérieur du deck, s'il y a de la place sur le terrain."
+   }
   },
   {
    "key": "capitaine_ginyu",
@@ -93,7 +200,22 @@
    "type": "Combattant",
    "cost": 4,
    "atk": 2,
-   "hp": 2
+   "hp": 2,
+   "traits": [
+    "Alien",
+    "Artiste Martial",
+    "Commando Ginyu",
+    "Super Guerrier"
+   ],
+   "keywords": [],
+   "text": "À l'arrivée : ajoute à votre main une carte Commando Ginyu au hasard de votre deck (Combattant, Tactique ou Action).",
+   "evolution": {
+    "name": "Capitaine Ginyu — Échange de Corps",
+    "zenkai": 1,
+    "atk": 1,
+    "hp": 1,
+    "text": "échange le contrôle avec un Combattant adverse ciblé (Échange de Corps)."
+   }
   },
   {
    "key": "soma_style_yukihira",
@@ -102,7 +224,14 @@
    "type": "Combattant",
    "cost": 7,
    "atk": 6,
-   "hp": 6
+   "hp": 6,
+   "traits": [
+    "Humain",
+    "Scolaire",
+    "Cuisine"
+   ],
+   "keywords": [],
+   "text": "À l'arrivée : inflige à un Combattant adverse ciblé 1 dégât par carte Cuisine que vous avez jouée depuis le début de la partie (lui compris), rend 7 PV à votre Leader, puis le coût de 2 cartes Cuisine de votre main, tirées au hasard, baisse de 2. Dernier Souffle : ajoute une Grosse Viande à votre main."
   },
   {
    "key": "hiei",
@@ -111,7 +240,25 @@
    "type": "Combattant",
    "cost": 7,
    "atk": 5,
-   "hp": 2
+   "hp": 2,
+   "traits": [
+    "Démon",
+    "Épéiste"
+   ],
+   "keywords": [
+    {
+     "name": "Dissimulation",
+     "hint": "non ciblable par une attaque tant qu'il n'a jamais attaqué ; perdue définitivement dès qu'il attaque"
+    }
+   ],
+   "text": "À l'arrivée : inflige à un Combattant adverse ciblé 1 dégât par carte Démon que vous avez jouée depuis le début de la partie (lui compris). Son évolution coûte 1 Point Zenkai de moins par carte Démon ou Épéiste jouée ce tour.",
+   "evolution": {
+    "name": "Hiei - Dragon de l'Aube Noire",
+    "zenkai": 3,
+    "atk": 3,
+    "hp": 5,
+    "text": "gagne Rush."
+   }
   },
   {
    "key": "balalaika",
@@ -120,7 +267,19 @@
    "type": "Combattant",
    "cost": 5,
    "atk": 4,
-   "hp": 4
+   "hp": 4,
+   "traits": [
+    "Humain",
+    "Mafia",
+    "Assassin"
+   ],
+   "keywords": [
+    {
+     "name": "Dissimulation",
+     "hint": "non ciblable par une attaque tant qu'il n'a jamais attaqué ; perdue définitivement dès qu'il attaque"
+    }
+   ],
+   "text": "Dernier Souffle : inflige 2 dégâts à tous les Combattants adverses."
   },
   {
    "key": "daki",
@@ -129,7 +288,21 @@
    "type": "Combattant",
    "cost": 5,
    "atk": 2,
-   "hp": 5
+   "hp": 5,
+   "traits": [
+    "Démon"
+   ],
+   "keywords": [
+    {
+     "name": "Union",
+     "hint": "au début de votre tour, fusionne avec le Combattant uni de votre terrain en un nouveau Combattant"
+    },
+    {
+     "name": "Drain",
+     "hint": "quand il attaque, soigne votre Leader d'autant de PV que son ATK"
+    }
+   ],
+   "text": "Union : au début de votre tour, si elle est sur votre terrain avec Gyutaro, ils fusionnent en Lune Supérieure Six."
   },
   {
    "key": "sogiita_gunha",
@@ -138,7 +311,31 @@
    "type": "Combattant",
    "cost": 5,
    "atk": 4,
-   "hp": 5
+   "hp": 5,
+   "traits": [
+    "Humain",
+    "Scolaire",
+    "Esper",
+    "Super Pouvoir"
+   ],
+   "keywords": [
+    {
+     "name": "Rush",
+     "hint": "peut attaquer un Combattant dès l'arrivée, pas le Leader"
+    },
+    {
+     "name": "Surenchère",
+     "hint": "tant qu'elle reste en main, la carte gagne une stack à chaque Action jouée ; en la jouant, son effet de Surenchère se déclenche une fois de plus par stack"
+    }
+   ],
+   "text": "À l'arrivée : détruit un Combattant adverse avec Rempart ciblé (s'il y en a un). Surenchère : en la jouant, 1 dégât à un Combattant adverse au hasard par tranche de 2 stacks.",
+   "evolution": {
+    "name": "Sogiita Gunha",
+    "zenkai": 1,
+    "atk": 3,
+    "hp": 2,
+    "text": "détruit un Combattant adverse avec Rempart ciblé."
+   }
   },
   {
    "key": "shuna",
@@ -147,7 +344,19 @@
    "type": "Combattant",
    "cost": 5,
    "atk": 1,
-   "hp": 5
+   "hp": 5,
+   "traits": [
+    "Monstre",
+    "Soin",
+    "Jura Tempest"
+   ],
+   "keywords": [
+    {
+     "name": "Rempart",
+     "hint": "l'adversaire est obligé de l'attaquer"
+    }
+   ],
+   "text": "Rempart. À la fin de votre tour : soigne votre Leader de 1 PV par carte de Trait Jura Tempest sur votre terrain (elle comprise)."
   },
   {
    "key": "coco",
@@ -156,7 +365,25 @@
    "type": "Combattant",
    "cost": 4,
    "atk": 3,
-   "hp": 2
+   "hp": 2,
+   "traits": [
+    "Humain",
+    "Cuisine"
+   ],
+   "keywords": [
+    {
+     "name": "Frappe Critique",
+     "hint": "après un combat auquel il participe — qu'il attaque ou défende —, le Combattant adverse est détruit, quelle que soit l'issue de l'échange"
+    }
+   ],
+   "text": "Frappe Critique. Tant qu'il est sur le terrain, chaque fois que vous jouez une Cuisine Catastrophique : inflige 1 dégât à tous les Combattants adverses.",
+   "evolution": {
+    "name": "Coco",
+    "zenkai": 1,
+    "atk": 2,
+    "hp": 2,
+    "text": ""
+   }
   },
   {
    "key": "livebearer",
@@ -165,7 +392,18 @@
    "type": "Combattant",
    "cost": 5,
    "atk": 3,
-   "hp": 4
+   "hp": 4,
+   "traits": [
+    "Humain",
+    "Cuisine"
+   ],
+   "keywords": [
+    {
+     "name": "Rempart",
+     "hint": "l'adversaire est obligé de l'attaquer"
+    }
+   ],
+   "text": "Rempart. Dernier Souffle : ajoute 2 Cuisine Catastrophique à votre main depuis l'extérieur du deck."
   },
   {
    "key": "dante_zogratis",
@@ -174,7 +412,20 @@
    "type": "Combattant",
    "cost": 5,
    "atk": 4,
-   "hp": 5
+   "hp": 5,
+   "traits": [
+    "Démon",
+    "Mage"
+   ],
+   "keywords": [],
+   "text": "À l'arrivée : inflige 3 dégâts à un Combattant adverse ciblé. Dernier Souffle : votre Leader subit 2 dégâts et un Combattant Démon allié ciblé gagne +2/+2 (définitivement).",
+   "evolution": {
+    "name": "Dante Zogratis",
+    "zenkai": 0,
+    "atk": 3,
+    "hp": 3,
+    "text": "votre Leader subit 7 dégâts."
+   }
   },
   {
    "key": "zeno_zoldyck",
@@ -183,7 +434,19 @@
    "type": "Combattant",
    "cost": 6,
    "atk": 5,
-   "hp": 5
+   "hp": 5,
+   "traits": [
+    "Humain",
+    "Nen",
+    "Assassin"
+   ],
+   "keywords": [
+    {
+     "name": "Rush",
+     "hint": "peut attaquer un Combattant dès l'arrivée, pas le Leader"
+    }
+   ],
+   "text": "À l'arrivée : inflige 3 dégâts directs au Leader adverse."
   },
   {
    "key": "shunsui_kyoraku",
@@ -192,7 +455,22 @@
    "type": "Combattant",
    "cost": 4,
    "atk": 3,
-   "hp": 4
+   "hp": 4,
+   "traits": [
+    "Shinigami",
+    "Gotei 13",
+    "Spirituel",
+    "Épéiste"
+   ],
+   "keywords": [],
+   "text": "À l'arrivée : inverse l'ATK et les PV d'un Combattant adverse ciblé (définitivement).",
+   "evolution": {
+    "name": "Shunsui Kyoraku",
+    "zenkai": 1,
+    "atk": 1,
+    "hp": 2,
+    "text": "inverse l'ATK et les PV d'un autre Combattant adverse ciblé."
+   }
   },
   {
    "key": "cercle_de_sang",
@@ -201,7 +479,12 @@
    "type": "Tactique",
    "cost": 3,
    "atk": null,
-   "hp": null
+   "hp": null,
+   "traits": [
+    "Démon"
+   ],
+   "keywords": [],
+   "text": "Compteur 3. Au début de chacun de vos tours : votre Leader subit 2 dégâts et un Combattant Démon allié au hasard gagne +2/+2 (définitivement). À l'expiration : votre Leader récupère 8 PV."
   },
   {
    "key": "zoro",
@@ -210,7 +493,21 @@
    "type": "Combattant",
    "cost": 4,
    "atk": 4,
-   "hp": 3
+   "hp": 3,
+   "traits": [
+    "Humain",
+    "Pirate",
+    "Épéiste"
+   ],
+   "keywords": [],
+   "text": "À l'arrivée : inflige 2 dégâts à un Combattant adverse ciblé — 4 dégâts à la place s'il y a un autre Combattant Pirate sur votre terrain.",
+   "evolution": {
+    "name": "Zoro",
+    "zenkai": 1,
+    "atk": 2,
+    "hp": 2,
+    "text": ""
+   }
   },
   {
    "key": "erina_nakiri",
@@ -219,7 +516,14 @@
    "type": "Combattant",
    "cost": 4,
    "atk": 4,
-   "hp": 3
+   "hp": 3,
+   "traits": [
+    "Humain",
+    "Scolaire",
+    "Cuisine"
+   ],
+   "keywords": [],
+   "text": "Si elle subit l'effet d'une Action ou d'une Tactique de Trait Cuisine : gagne Fulgurance et Frappe Critique. Si elle subit l'effet d'un Combattant de Trait Cuisine : gagne Fulgurance et tous vos Combattants gagnent +3/+1."
   },
   {
    "key": "zaryusu_shasha",
@@ -228,7 +532,18 @@
    "type": "Combattant",
    "cost": 4,
    "atk": 3,
-   "hp": 4
+   "hp": 4,
+   "traits": [
+    "Dragon",
+    "Monstre"
+   ],
+   "keywords": [
+    {
+     "name": "Rush",
+     "hint": "peut attaquer un Combattant dès l'arrivée, pas le Leader"
+    }
+   ],
+   "text": "Rush. À l'arrivée : gagne +1 ATK (définitivement) pour chaque AUTRE Combattant de Trait Dragon ou Monstre sur votre terrain."
   },
   {
    "key": "esprit_d_equipe",
@@ -237,7 +552,12 @@
    "type": "Tactique",
    "cost": 4,
    "atk": null,
-   "hp": null
+   "hp": null,
+   "traits": [
+    "Sport"
+   ],
+   "keywords": [],
+   "text": "Compteur 3. Chaque fois qu'un Combattant de Trait Sport apparaît sur votre terrain : il gagne +1 ATK / +1 PV définitivement."
   },
   {
    "key": "power_chainsaw",
@@ -246,7 +566,17 @@
    "type": "Combattant",
    "cost": 3,
    "atk": 3,
-   "hp": 2
+   "hp": 2,
+   "traits": [
+    "Démon"
+   ],
+   "keywords": [
+    {
+     "name": "Rush",
+     "hint": "peut attaquer un Combattant dès l'arrivée, pas le Leader"
+    }
+   ],
+   "text": "À l'arrivée : votre Leader subit 2 dégâts et un AUTRE Combattant Démon allié ciblé gagne +2 ATK (définitivement)."
   },
   {
    "key": "potentiel_latent",
@@ -255,7 +585,10 @@
    "type": "Action",
    "cost": 6,
    "atk": null,
-   "hp": null
+   "hp": null,
+   "traits": [],
+   "keywords": [],
+   "text": "Défaussez une carte de votre main, puis regagnez 1 Point Zenkai. Jouable seulement si vous pouvez défausser une carte ET que votre Zenkai n'est pas au maximum."
   },
   {
    "key": "otose",
@@ -264,7 +597,18 @@
    "type": "Combattant",
    "cost": 3,
    "atk": 1,
-   "hp": 4
+   "hp": 4,
+   "traits": [
+    "Humain",
+    "Silver Soul"
+   ],
+   "keywords": [
+    {
+     "name": "Rempart",
+     "hint": "l'adversaire est obligé de l'attaquer"
+    }
+   ],
+   "text": "Tant qu'elle est sur votre terrain, vos cartes de Trait Yorozuya en main coûtent 1 de moins."
   },
   {
    "key": "bagarre_generale",
@@ -273,7 +617,12 @@
    "type": "Action",
    "cost": 4,
    "atk": null,
-   "hp": null
+   "hp": null,
+   "traits": [
+    "Furyo"
+   ],
+   "keywords": [],
+   "text": "Injouable sans Combattant Furyo allié. Inflige 1 dégât à tous les Combattants des deux terrains, puis vos Combattants Furyo gagnent +2 ATK jusqu'à la fin du tour."
   },
   {
    "key": "ordre_de_mission",
@@ -282,7 +631,12 @@
    "type": "Tactique",
    "cost": 3,
    "atk": null,
-   "hp": null
+   "hp": null,
+   "traits": [
+    "Ninja"
+   ],
+   "keywords": [],
+   "text": "Compteur 3, qui ne baisse qu'à l'apparition d'un Combattant Ninja sur votre plateau : ce Ninja gagne Rush et le compteur perd 1."
   },
   {
    "key": "jinbe",
@@ -291,7 +645,25 @@
    "type": "Combattant",
    "cost": 4,
    "atk": 3,
-   "hp": 5
+   "hp": 5,
+   "traits": [
+    "Pirate",
+    "Artiste Martial"
+   ],
+   "keywords": [
+    {
+     "name": "Rempart",
+     "hint": "l'adversaire est obligé de l'attaquer"
+    }
+   ],
+   "text": "Chaque fois qu'un de vos Combattants Pirates est détruit : gagne +1 ATK (définitivement).",
+   "evolution": {
+    "name": "Jinbe",
+    "zenkai": 1,
+    "atk": 2,
+    "hp": 2,
+    "text": "gagne Frappe Critique."
+   }
   },
   {
    "key": "axel_blaze",
@@ -300,7 +672,26 @@
    "type": "Combattant",
    "cost": 3,
    "atk": 3,
-   "hp": 2
+   "hp": 2,
+   "traits": [
+    "Humain",
+    "Scolaire",
+    "Sport"
+   ],
+   "keywords": [
+    {
+     "name": "Frappe Critique",
+     "hint": "après un combat auquel il participe — qu'il attaque ou défende —, le Combattant adverse est détruit, quelle que soit l'issue de l'échange"
+    }
+   ],
+   "text": "",
+   "evolution": {
+    "name": "Axel Blaze",
+    "zenkai": 2,
+    "atk": 2,
+    "hp": 2,
+    "text": ""
+   }
   },
   {
    "key": "escalier_interminable",
@@ -309,7 +700,10 @@
    "type": "Action",
    "cost": 2,
    "atk": null,
-   "hp": null
+   "hp": null,
+   "traits": [],
+   "keywords": [],
+   "text": "Injouable si aucun Combattant adverse n'a Rush. Piochez 1 carte par Combattant adverse qui a Rush (3 au maximum), puis les Combattants adverses qui ont Rush perdent 3 ATK jusqu'à la fin du prochain tour adverse."
   },
   {
    "key": "awaki_musujime",
@@ -318,7 +712,15 @@
    "type": "Combattant",
    "cost": 3,
    "atk": 2,
-   "hp": 3
+   "hp": 3,
+   "traits": [
+    "Humain",
+    "Scolaire",
+    "Esper",
+    "Super Pouvoir"
+   ],
+   "keywords": [],
+   "text": "À l'arrivée : renvoie dans la main de son propriétaire un Combattant adverse ciblé de coût 3 ou moins."
   },
   {
    "key": "nikaido",
@@ -327,7 +729,14 @@
    "type": "Combattant",
    "cost": 3,
    "atk": 2,
-   "hp": 4
+   "hp": 4,
+   "traits": [
+    "Humain",
+    "Artiste Martial",
+    "Cuisine"
+   ],
+   "keywords": [],
+   "text": "À l'arrivée : votre Leader récupère 2 PV et un Combattant allié ciblé gagne +1 PV (définitivement)."
   },
   {
    "key": "wandering_musician",
@@ -336,7 +745,13 @@
    "type": "Combattant",
    "cost": 2,
    "atk": 1,
-   "hp": 3
+   "hp": 3,
+   "traits": [
+    "Musique",
+    "Humain"
+   ],
+   "keywords": [],
+   "text": ""
   },
   {
    "key": "coup_bas",
@@ -345,7 +760,12 @@
    "type": "Action",
    "cost": 2,
    "atk": null,
-   "hp": null
+   "hp": null,
+   "traits": [
+    "Furyo"
+   ],
+   "keywords": [],
+   "text": "Injouable sans Combattant adverse de 2 ATK ou moins. Détruit un Combattant adverse de 2 ATK ou moins ciblé."
   },
   {
    "key": "goblin",
@@ -354,7 +774,12 @@
    "type": "Combattant",
    "cost": 1,
    "atk": 1,
-   "hp": 2
+   "hp": 2,
+   "traits": [
+    "Monstre"
+   ],
+   "keywords": [],
+   "text": "Aucun effet particulier."
   },
   {
    "key": "kon",
@@ -363,7 +788,12 @@
    "type": "Combattant",
    "cost": 1,
    "atk": 1,
-   "hp": 1
+   "hp": 1,
+   "traits": [
+    "Spirituel"
+   ],
+   "keywords": [],
+   "text": ""
   },
   {
    "key": "coup_decisif",
@@ -372,7 +802,12 @@
    "type": "Action",
    "cost": 2,
    "atk": null,
-   "hp": null
+   "hp": null,
+   "traits": [
+    "Artiste Martial"
+   ],
+   "keywords": [],
+   "text": "Injouable sans Combattant adverse. Inflige 3 dégâts à un Combattant adverse ciblé ; 2 dégâts de plus s'il est déjà blessé."
   },
   {
    "key": "nuit_etoilee",
@@ -381,7 +816,10 @@
    "type": "Tactique",
    "cost": 1,
    "atk": null,
-   "hp": null
+   "hp": null,
+   "traits": [],
+   "keywords": [],
+   "text": "Compteur 3. Au début de chacun de vos tours : votre Leader récupère 1 PV. Dernier Souffle : piochez une carte."
   },
   {
    "key": "chopper",
@@ -390,7 +828,15 @@
    "type": "Combattant",
    "cost": 2,
    "atk": 1,
-   "hp": 3
+   "hp": 3,
+   "traits": [
+    "Animal",
+    "Pirate",
+    "Soin",
+    "Fruit du Démon"
+   ],
+   "keywords": [],
+   "text": "À l'arrivée : un Combattant Pirate allié ciblé récupère tous ses PV et gagne +1 PV (définitivement)."
   },
   {
    "key": "panda",
@@ -399,7 +845,17 @@
    "type": "Combattant",
    "cost": 2,
    "atk": 2,
-   "hp": 3
+   "hp": 3,
+   "traits": [
+    "Exorciste"
+   ],
+   "keywords": [
+    {
+     "name": "Rempart",
+     "hint": "l'adversaire est obligé de l'attaquer"
+    }
+   ],
+   "text": "À l'arrivée : le coût d'une carte Exorciste de votre main, au choix, baisse de 1 définitivement."
   },
   {
    "key": "gyo",
@@ -408,7 +864,12 @@
    "type": "Action",
    "cost": 2,
    "atk": null,
-   "hp": null
+   "hp": null,
+   "traits": [
+    "Nen"
+   ],
+   "keywords": [],
+   "text": "Injouable sans Combattant Nen sur votre terrain. Piochez une carte."
   },
   {
    "key": "otto_suwen",
@@ -417,7 +878,12 @@
    "type": "Combattant",
    "cost": 1,
    "atk": 1,
-   "hp": 2
+   "hp": 2,
+   "traits": [
+    "Humain"
+   ],
+   "keywords": [],
+   "text": "Dernier Souffle : piochez une carte."
   },
   {
    "key": "tir_decisif",
@@ -426,7 +892,12 @@
    "type": "Action",
    "cost": 1,
    "atk": null,
-   "hp": null
+   "hp": null,
+   "traits": [
+    "Sport"
+   ],
+   "keywords": [],
+   "text": "Injouable sans Combattant Sport allié. Un Combattant Sport allié ciblé gagne +3 ATK jusqu'à la fin du tour."
   },
   {
    "key": "ritsu_kageyama",
@@ -435,7 +906,20 @@
    "type": "Combattant",
    "cost": 2,
    "atk": 2,
-   "hp": 2
+   "hp": 2,
+   "traits": [
+    "Humain",
+    "Scolaire",
+    "Esper",
+    "Super Pouvoir"
+   ],
+   "keywords": [
+    {
+     "name": "Rush",
+     "hint": "peut attaquer un Combattant dès l'arrivée, pas le Leader"
+    }
+   ],
+   "text": ""
   }
  ]
 }
