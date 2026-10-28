@@ -1,4 +1,5 @@
 (function () {
+  var PAGE = 60;
   var RARITY = { legendary: "Légendaire", epic: "Épique", rare: "Rare", common: "Commune" };
   document.querySelectorAll("a.discord").forEach(function (a) { a.href = window.DISCORD_URL; });
 
@@ -20,7 +21,9 @@
 
   function openCard(c) {
     var info = document.querySelector("#zoom .info");
-    document.querySelector("#zoom img").src = "img/cards/" + c.key + ".webp";
+    var pic = document.querySelector("#zoom img");
+    pic.hidden = !c.art;
+    if (c.art) pic.src = "img/cards/" + c.key + ".webp";
     info.innerHTML = "";
     var head = el("div", "head");
     head.appendChild(el("h3", null, c.name));
@@ -71,18 +74,24 @@
     document.getElementById("n-fighters").textContent = data.stats.fighters;
     document.getElementById("n-traits").textContent = data.stats.traits;
 
+    var count = document.getElementById("count"), more = document.getElementById("more");
     var box = document.getElementById("cards"), search = document.getElementById("search"), dialog = document.getElementById("zoom");
     dialog.addEventListener("click", function (ev) { if (ev.target === dialog || ev.target.classList.contains("close")) dialog.close(); });
-    var filter = "all";
+    var all = data.cards, filter = "all", shown = PAGE;
     function render() {
       var q = search.value.trim().toLowerCase();
       box.innerHTML = "";
-      data.featured.filter(function (c) {
-        return (filter === "all" || c.rarity === filter) && (!q || c.name.toLowerCase().indexOf(q) >= 0);
-      }).forEach(function (c) {
+      var list = all.filter(function (c) {
+        return (filter === "all" || c.rarity === filter) && (!q || c.name.toLowerCase().indexOf(q) >= 0 ||
+          c.traits.join(" ").toLowerCase().indexOf(q) >= 0);
+      });
+      count.textContent = list.length + " carte" + (list.length > 1 ? "s" : "");
+      more.hidden = list.length <= shown;
+      list.slice(0, shown).forEach(function (c) {
         var b = document.createElement("button");
         b.className = "card"; b.dataset.r = c.rarity; b.type = "button";
-        b.innerHTML = '<img loading="lazy" alt="" src="img/cards/' + c.key + '.webp"><span></span>';
+        b.innerHTML = c.art ? '<img loading="lazy" alt="" src="img/cards/' + c.key + '.webp"><span></span>'
+          : '<div class="noart">' + c.type + '</div><span></span>';
         b.querySelector("span").textContent = c.name;
         b.addEventListener("click", function () { openCard(c); });
         box.appendChild(b);
@@ -90,12 +99,13 @@
     }
     document.querySelectorAll(".filters button").forEach(function (btn) {
       btn.addEventListener("click", function () {
-        filter = btn.dataset.f;
+        filter = btn.dataset.f; shown = PAGE;
         document.querySelectorAll(".filters button").forEach(function (o) { o.setAttribute("aria-pressed", o === btn); });
         render();
       });
     });
-    search.addEventListener("input", render);
+    search.addEventListener("input", function () { shown = PAGE; render(); });
+    more.addEventListener("click", function () { shown += PAGE; render(); });
     render();
   });
 })();

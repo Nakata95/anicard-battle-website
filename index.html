@@ -20,6 +20,7 @@
   <a class="link" href="#jeu">Le jeu</a>
   <a class="link" href="#cartes">Les cartes</a>
   <a class="link" href="#modes">Les modes</a>
+  <a class="link" href="regles.html">Les règles</a>
   <a class="link" href="#avenir">À venir</a>
   <a class="btn discord" href="#">Discord</a>
 </div></header>
@@ -31,7 +32,7 @@
   <p class="tag" style="color:var(--muted);font-size:18px">Construis ton deck, fais évoluer tes combattants et écrase le Leader adverse.</p>
   <div class="actions">
     <a class="btn discord" href="#">Rejoindre le Discord</a>
-    <a class="btn ghost" href="#jeu">Découvrir le jeu</a>
+    <a class="btn ghost" href="regles.html">Lire les règles</a>
   </div>
 </div></div>
 
@@ -41,7 +42,7 @@
   <div class="grid">
     <div class="tile"><h3>Évolution Zenkai</h3><p>Accumule des points Zenkai pour faire évoluer un combattant en pleine bataille : plus de stats, de nouveaux effets.</p></div>
     <div class="tile"><h3>Nekketsu</h3><p>Ta ressource grandit à chaque tour. À toi de décider : une grosse carte, ou plusieurs petites.</p></div>
-    <div class="tile"><h3>Mots-clés</h3><p>Rempart, Rush, Drain, Dissimulation, Double Attaque, Frappe critique… chaque mot-clé change la façon de jouer.</p></div>
+    <div class="tile"><h3>Mots-clés</h3><p>Rempart, Rush, Drain, Dissimulation, Double Attaque, Frappe critique… chaque mot-clé change la façon de jouer. <a href="regles.html#mots-cles" style="color:var(--orange)">Tous les détails</a></p></div>
     <div class="tile"><h3>Archétypes</h3><p>Dragons, ninjas, démons, exorcistes, mages, machines… des decks pensés autour de leurs traits et de leurs synergies.</p></div>
   </div>
   <div class="shots">
@@ -53,7 +54,7 @@
 
 <section id="cartes"><div class="wrap">
   <h2>Les cartes</h2>
-  <p class="lead">Un aperçu de la collection. Clique sur une carte pour voir ses effets, ses traits et son évolution.</p>
+  <p class="lead">Toute la collection publique. Filtre par rareté, cherche un nom ou un trait, puis clique sur une carte pour voir ses effets, ses traits et son évolution.</p>
   <div class="stats">
     <div><b id="n-cards">–</b><span>cartes</span></div>
     <div><b id="n-fighters">–</b><span>combattants</span></div>
@@ -67,8 +68,10 @@
     <button type="button" data-f="common" aria-pressed="false">Communes</button>
     <input id="search" type="search" placeholder="Chercher un nom…" aria-label="Chercher une carte">
   </div>
+  <p class="hint" id="count"></p>
   <div class="cards" id="cards"></div>
-  <p class="hint">Sélection d'illustrations : de nouvelles cartes arrivent régulièrement.</p>
+  <div style="text-align:center;margin-top:24px"><button class="btn" id="more" type="button" hidden>Afficher plus de cartes</button></div>
+  <p class="hint">Toute la collection publique : de nouvelles cartes arrivent régulièrement.</p>
   <dialog id="zoom"><button class="close" type="button" aria-label="Fermer">×</button><img alt=""><div class="info"></div></dialog>
 </div></section>
 

@@ -100,3 +100,19 @@ dialog .evo p { margin: 4px 0 0; font-size: 16px; }
 .cta .btn { font-size: 20px; padding: 16px 40px; }
 footer { padding: 34px 0 48px; color: var(--muted); font-size: 14px; border-top: 1px solid var(--line); text-align: center; }
 footer p { margin: 6px auto; max-width: 760px; }
+
+.card .noart { aspect-ratio: 5/7; display: grid; place-items: center; color: var(--muted); text-transform: uppercase; background: #0b121b; font-size: 14px; }
+dialog img[hidden] { display: none; }
+dialog[open]:has(img[hidden]) { grid-template-columns: 1fr; }
+header.nav a[aria-current="page"] { color: var(--orange); }
+.rules-page { padding: 48px 0 24px; }
+.rules-page h1 { margin: 0; font-size: clamp(34px, 5vw, 48px); text-transform: uppercase; }
+.rules-layout { display: grid; grid-template-columns: 200px 1fr; gap: 36px; align-items: start; margin-top: 8px; }
+.toc { position: sticky; top: 76px; display: grid; gap: 4px; }
+.toc a { padding: 8px 12px; text-decoration: none; text-transform: uppercase; color: var(--muted); border-left: 3px solid var(--line); }
+.toc a:hover { color: var(--text); border-color: var(--orange); }
+.rules-block { padding: 0 0 36px; scroll-margin-top: 72px; }
+.rule { padding: 14px 18px; margin-bottom: 12px; background: var(--panel); border-left: 4px solid var(--blue); scroll-margin-top: 72px; }
+.rule h3 { margin: 0 0 4px; font-size: 20px; text-transform: uppercase; color: var(--orange); }
+.rule p { margin: 0; color: var(--text); font-size: 17px; }
+@media (max-width: 760px) { .rules-layout { grid-template-columns: 1fr; } .toc { position: static; grid-auto-flow: column; overflow-x: auto; } .toc a { white-space: nowrap; } }
