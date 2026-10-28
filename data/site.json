@@ -1,10 +1,143 @@
 {
  "stats": {
-  "cards": 589,
-  "fighters": 390,
+  "cards": 642,
+  "fighters": 415,
   "traits": 53
  },
  "cards": [
+  {
+   "key": "amaterasu",
+   "name": "Amaterasu",
+   "rarity": "legendary",
+   "type": "Tactique",
+   "cost": 0,
+   "atk": null,
+   "hp": null,
+   "art": true,
+   "external": true,
+   "traits": [
+    "Ninja",
+    "Sharingan"
+   ],
+   "keywords": [],
+   "text": "Compteur 3. À la fin de votre tour : inflige 1 dégât à tous les Combattants adverses. Dernier souffle : inflige 4 dégâts au Leader adverse."
+  },
+  {
+   "key": "destruction_de_namek",
+   "name": "Destruction de Namek",
+   "rarity": "legendary",
+   "type": "Tactique",
+   "cost": 0,
+   "atk": null,
+   "hp": null,
+   "art": true,
+   "external": true,
+   "traits": [
+    "Super Guerrier"
+   ],
+   "keywords": [],
+   "text": "Compteur 5. Dernier Souffle : détruit toutes les cartes des deux terrains."
+  },
+  {
+   "key": "hyoten_hyakkaso",
+   "name": "Hyoten Hyakkaso",
+   "rarity": "legendary",
+   "type": "Tactique",
+   "cost": 0,
+   "atk": null,
+   "hp": null,
+   "art": true,
+   "external": true,
+   "traits": [
+    "Shinigami",
+    "Spirituel"
+   ],
+   "keywords": [],
+   "text": "Compteur 3. À sa destruction : réduit à 0 l'ATK de tous les Combattants ennemis."
+  },
+  {
+   "key": "naruto_uzumaki_clone",
+   "name": "Naruto Uzumaki — Clone",
+   "rarity": "legendary",
+   "type": "Combattant",
+   "cost": 0,
+   "atk": 2,
+   "hp": 3,
+   "art": true,
+   "external": true,
+   "traits": [
+    "Humain",
+    "Ninja"
+   ],
+   "keywords": [
+    {
+     "name": "Rush",
+     "hint": "peut attaquer un Combattant dès l'arrivée, pas le Leader"
+    }
+   ],
+   "text": ""
+  },
+  {
+   "key": "susano",
+   "name": "Susanô",
+   "rarity": "legendary",
+   "type": "Tactique",
+   "cost": 0,
+   "atk": null,
+   "hp": null,
+   "art": true,
+   "external": true,
+   "traits": [
+    "Ninja",
+    "Sharingan"
+   ],
+   "keywords": [],
+   "text": "Compteur 1. Tant qu'elle est en jeu, vos Combattants Ninja ne subissent jamais plus de 3 dégâts à la fois. À l'expiration : inflige 3 dégâts à un Combattant adverse ciblé."
+  },
+  {
+   "key": "yorozuya_kagura",
+   "name": "Yorozuya Kagura",
+   "rarity": "legendary",
+   "type": "Combattant",
+   "cost": 0,
+   "atk": 2,
+   "hp": 4,
+   "art": true,
+   "external": true,
+   "traits": [
+    "Yato",
+    "Artiste Martial",
+    "Yorozuya",
+    "Alien",
+    "Silver Soul"
+   ],
+   "keywords": [
+    {
+     "name": "Rempart",
+     "hint": "l'adversaire est obligé de l'attaquer"
+    }
+   ],
+   "text": "Vos autres Combattants Silver Soul gagnent +1 PV tant qu'elle est sur votre terrain, et vos autres Combattants Yorozuya +1 ATK de plus."
+  },
+  {
+   "key": "yorozuya_shinpachi",
+   "name": "Yorozuya Shinpachi",
+   "rarity": "legendary",
+   "type": "Combattant",
+   "cost": 0,
+   "atk": 2,
+   "hp": 3,
+   "art": true,
+   "external": true,
+   "traits": [
+    "Épéiste",
+    "Humain",
+    "Yorozuya",
+    "Silver Soul"
+   ],
+   "keywords": [],
+   "text": "À l'invocation : vos Combattants Silver Soul gagnent +1 ATK ce tour, et vos Combattants Yorozuya +1 ATK de plus. À l'arrivée : donne Rush à tous vos Combattants (ce tour)."
+  },
   {
    "key": "pot_de_cupidite",
    "name": "Pot de cupidité",
@@ -14,9 +147,73 @@
    "atk": null,
    "hp": null,
    "art": true,
+   "external": false,
    "traits": [],
    "keywords": [],
    "text": "Piochez 2 cartes."
+  },
+  {
+   "key": "ramen_ichiraku",
+   "name": "Ramen Ichiraku",
+   "rarity": "legendary",
+   "type": "Action",
+   "cost": 2,
+   "atk": null,
+   "hp": null,
+   "art": true,
+   "external": true,
+   "traits": [],
+   "keywords": [],
+   "text": "Donne +2 PV à un Combattant allié ciblé."
+  },
+  {
+   "key": "shunpo",
+   "name": "Shunpo",
+   "rarity": "legendary",
+   "type": "Action",
+   "cost": 2,
+   "atk": null,
+   "hp": null,
+   "art": true,
+   "external": true,
+   "traits": [
+    "Shinigami",
+    "Spirituel"
+   ],
+   "keywords": [],
+   "text": "Donne Rush et +1 ATK à un Combattant Shinigami allié ciblé, puis pioche une carte. Injouable sans Combattant Shinigami allié."
+  },
+  {
+   "key": "aura_draconique",
+   "name": "Aura Draconique",
+   "rarity": "legendary",
+   "type": "Action",
+   "cost": 3,
+   "atk": null,
+   "hp": null,
+   "art": true,
+   "external": true,
+   "traits": [
+    "Dragon"
+   ],
+   "keywords": [],
+   "text": "Ciblez un de vos Combattants Humain et Dragon : ajoutez son ATK à ses PV, passez son ATK à 0 et donnez-lui Rempart."
+  },
+  {
+   "key": "drive_shoot",
+   "name": "Drive Shoot",
+   "rarity": "legendary",
+   "type": "Action",
+   "cost": 3,
+   "atk": null,
+   "hp": null,
+   "art": true,
+   "external": true,
+   "traits": [
+    "Sport"
+   ],
+   "keywords": [],
+   "text": "Inflige 3 dégâts au Leader adverse, puis détruit au hasard jusqu'à 2 Combattants adverses qui ont Rempart."
   },
   {
    "key": "genkidama",
@@ -27,6 +224,7 @@
    "atk": null,
    "hp": null,
    "art": true,
+   "external": false,
    "traits": [
     "Super Guerrier"
    ],
@@ -39,6 +237,31 @@
    "text": "Injouable si l'adversaire n'a aucun Combattant. Inflige 1 dégât à un Combattant adverse au hasard. Surenchère : tant qu'elle reste en main, gagne une stack à chaque Action jouée ; en la jouant, répète cet effet une fois de plus par stack accumulée."
   },
   {
+   "key": "gohan_kid",
+   "name": "Gohan (Ado)",
+   "rarity": "legendary",
+   "type": "Combattant",
+   "cost": 3,
+   "atk": 2,
+   "hp": 3,
+   "art": true,
+   "external": true,
+   "traits": [
+    "Saiyan",
+    "Humain",
+    "Super Guerrier"
+   ],
+   "keywords": [],
+   "text": "",
+   "evolution": {
+    "name": "Gohan (Ado) — Super Saiyan 2",
+    "zenkai": 0,
+    "atk": 3,
+    "hp": 1,
+    "text": "ajoute Kamehameha Père-Fils à la main."
+   }
+  },
+  {
    "key": "gon_freecss",
    "name": "Gon Freecss",
    "rarity": "legendary",
@@ -47,6 +270,7 @@
    "atk": 2,
    "hp": 4,
    "art": true,
+   "external": false,
    "traits": [
     "Humain",
     "Nen"
@@ -62,6 +286,22 @@
    }
   },
   {
+   "key": "kamehameha_pere_fils",
+   "name": "Kamehameha Père-Fils",
+   "rarity": "legendary",
+   "type": "Action",
+   "cost": 3,
+   "atk": null,
+   "hp": null,
+   "art": true,
+   "external": true,
+   "traits": [
+    "Super Guerrier"
+   ],
+   "keywords": [],
+   "text": "Inflige 7 dégâts à un Combattant adverse ciblé."
+  },
+  {
    "key": "killua_zoldyck",
    "name": "Killua Zoldyck",
    "rarity": "legendary",
@@ -70,6 +310,7 @@
    "atk": 3,
    "hp": 3,
    "art": true,
+   "external": false,
    "traits": [
     "Humain",
     "Nen",
@@ -99,11 +340,28 @@
    "atk": 1,
    "hp": 1,
    "art": true,
+   "external": false,
    "traits": [
     "Démon"
    ],
    "keywords": [],
    "text": "Tant qu'il est sur votre terrain, votre Leader ne subit aucun dégât des effets de vos propres cartes."
+  },
+  {
+   "key": "aura_de_veldra",
+   "name": "Aura de Veldra",
+   "rarity": "legendary",
+   "type": "Action",
+   "cost": 4,
+   "atk": null,
+   "hp": null,
+   "art": true,
+   "external": true,
+   "traits": [
+    "Dragon"
+   ],
+   "keywords": [],
+   "text": "Inflige 2 dégâts à tous les Combattants du terrain (alliés ET adverses) ; pour chaque Combattant détruit ainsi, le Leader adverse perd 1 PV."
   },
   {
    "key": "capitaine_ginyu",
@@ -114,6 +372,7 @@
    "atk": 2,
    "hp": 2,
    "art": true,
+   "external": false,
    "traits": [
     "Alien",
     "Artiste Martial",
@@ -131,6 +390,40 @@
    }
   },
   {
+   "key": "getsuga_tensho",
+   "name": "Getsuga Tensho",
+   "rarity": "legendary",
+   "type": "Action",
+   "cost": 4,
+   "atk": null,
+   "hp": null,
+   "art": true,
+   "external": true,
+   "traits": [
+    "Shinigami",
+    "Spirituel"
+   ],
+   "keywords": [],
+   "text": "Inflige 4 dégâts à un Combattant adverse ciblé, puis pioche une carte."
+  },
+  {
+   "key": "sharingan_copie",
+   "name": "Sharingan",
+   "rarity": "legendary",
+   "type": "Action",
+   "cost": 4,
+   "atk": null,
+   "hp": null,
+   "art": true,
+   "external": true,
+   "traits": [
+    "Ninja",
+    "Sharingan"
+   ],
+   "keywords": [],
+   "text": "Injouable si l'adversaire n'a aucune carte en main. Ajoute à votre main une copie d'une carte au hasard de la main de votre adversaire, dont le coût baisse de 1. Ni sa main ni la carte choisie ne sont révélées."
+  },
+  {
    "key": "yor_forger",
    "name": "Yor Forger",
    "rarity": "legendary",
@@ -139,6 +432,7 @@
    "atk": 3,
    "hp": 3,
    "art": true,
+   "external": false,
    "traits": [
     "Humain",
     "Assassin"
@@ -154,6 +448,40 @@
    }
   },
   {
+   "key": "big_bang_attack",
+   "name": "Big Bang Attack",
+   "rarity": "legendary",
+   "type": "Action",
+   "cost": 5,
+   "atk": null,
+   "hp": null,
+   "art": true,
+   "external": true,
+   "traits": [
+    "Super Guerrier"
+   ],
+   "keywords": [],
+   "text": "Coûte 1 de moins par Combattant Saiyan sur votre terrain. Détruit un Combattant adverse ciblé."
+  },
+  {
+   "key": "cercueil_noir",
+   "name": "Hado 90 — Cercueil Noir",
+   "rarity": "legendary",
+   "type": "Action",
+   "cost": 5,
+   "atk": null,
+   "hp": null,
+   "art": true,
+   "external": true,
+   "traits": [
+    "Shinigami",
+    "Gotei 13",
+    "Spirituel"
+   ],
+   "keywords": [],
+   "text": "Bannit un Combattant ou une Tactique ciblé du terrain adverse (effacé, pas détruit). Injouable si le terrain adverse est vide."
+  },
+  {
    "key": "eveil_du_sang_demoniaque",
    "name": "Éveil du Sang Démoniaque",
    "rarity": "legendary",
@@ -162,6 +490,7 @@
    "atk": null,
    "hp": null,
    "art": true,
+   "external": false,
    "traits": [
     "Démon"
    ],
@@ -177,6 +506,7 @@
    "atk": 4,
    "hp": 5,
    "art": true,
+   "external": false,
    "traits": [
     "Humain",
     "Épéiste"
@@ -205,6 +535,7 @@
    "atk": null,
    "hp": null,
    "art": true,
+   "external": false,
    "traits": [
     "Exorciste"
    ],
@@ -220,6 +551,7 @@
    "atk": null,
    "hp": null,
    "art": true,
+   "external": false,
    "traits": [],
    "keywords": [],
    "text": "Fusionne tout de suite deux Combattants qui ont la même Union, qu'ils soient sur votre terrain ou dans votre main. Vous choisissez la fusion (s'il y en a plusieurs) et les deux Combattants. Le résultat arrive sur votre terrain : il faut une place libre pour lui."
@@ -233,6 +565,7 @@
    "atk": null,
    "hp": null,
    "art": true,
+   "external": false,
    "traits": [
     "Exorciste"
    ],
@@ -248,6 +581,7 @@
    "atk": 3,
    "hp": 4,
    "art": true,
+   "external": false,
    "traits": [
     "Humain",
     "Scolaire",
@@ -270,6 +604,7 @@
    "atk": 4,
    "hp": 4,
    "art": true,
+   "external": false,
    "traits": [
     "Humain",
     "Spirituel",
@@ -299,6 +634,7 @@
    "atk": 5,
    "hp": 5,
    "art": true,
+   "external": false,
    "traits": [
     "Humain",
     "Scolaire",
@@ -333,6 +669,7 @@
    "atk": 5,
    "hp": 4,
    "art": true,
+   "external": false,
    "traits": [
     "Démon",
     "Artiste Martial"
@@ -361,6 +698,7 @@
    "atk": 5,
    "hp": 6,
    "art": true,
+   "external": false,
    "traits": [
     "Humain",
     "Nen",
@@ -377,6 +715,22 @@
    }
   },
   {
+   "key": "drago_nova",
+   "name": "Drago Nova",
+   "rarity": "legendary",
+   "type": "Action",
+   "cost": 6,
+   "atk": null,
+   "hp": null,
+   "art": true,
+   "external": true,
+   "traits": [
+    "Dragon"
+   ],
+   "keywords": [],
+   "text": "Injouable sans Combattant Dragon sur votre terrain. Inflige 7 dégâts au Leader adverse et 4 dégâts à chaque Combattant adverse, puis bannit toutes les Tactiques adverses."
+  },
+  {
    "key": "erza_scarlet",
    "name": "Erza Scarlet",
    "rarity": "legendary",
@@ -385,6 +739,7 @@
    "atk": 5,
    "hp": 1,
    "art": true,
+   "external": false,
    "traits": [
     "Humain",
     "Épéiste",
@@ -414,6 +769,7 @@
    "atk": null,
    "hp": null,
    "art": true,
+   "external": false,
    "traits": [
     "Exorciste"
    ],
@@ -429,6 +785,7 @@
    "atk": 4,
    "hp": 6,
    "art": true,
+   "external": false,
    "traits": [
     "Mage"
    ],
@@ -444,6 +801,7 @@
    "atk": 3,
    "hp": 4,
    "art": true,
+   "external": false,
    "traits": [
     "Humain",
     "Ninja",
@@ -473,6 +831,7 @@
    "atk": 4,
    "hp": 4,
    "art": true,
+   "external": false,
    "traits": [
     "Saiyan",
     "Artiste Martial",
@@ -495,6 +854,7 @@
    "atk": 5,
    "hp": 5,
    "art": true,
+   "external": false,
    "traits": [
     "Démon",
     "Épéiste"
@@ -518,6 +878,7 @@
    "atk": 3,
    "hp": 5,
    "art": true,
+   "external": false,
    "traits": [
     "Humain",
     "Épéiste"
@@ -550,6 +911,7 @@
    "atk": null,
    "hp": null,
    "art": true,
+   "external": false,
    "traits": [
     "Ninja"
    ],
@@ -565,6 +927,7 @@
    "atk": 5,
    "hp": 5,
    "art": true,
+   "external": false,
    "traits": [
     "Humain",
     "Épéiste"
@@ -586,6 +949,7 @@
    "atk": 4,
    "hp": 5,
    "art": true,
+   "external": false,
    "traits": [
     "Humain",
     "Assassin"
@@ -607,6 +971,7 @@
    "atk": 5,
    "hp": 5,
    "art": true,
+   "external": false,
    "traits": [
     "Humain",
     "Pirate"
@@ -628,6 +993,7 @@
    "atk": 3,
    "hp": 3,
    "art": true,
+   "external": false,
    "traits": [
     "Humain",
     "Ninja",
@@ -645,6 +1011,7 @@
    "atk": 4,
    "hp": 4,
    "art": true,
+   "external": false,
    "traits": [
     "Humain",
     "Épéiste",
@@ -667,6 +1034,7 @@
    "atk": null,
    "hp": null,
    "art": true,
+   "external": false,
    "traits": [
     "Shinigami",
     "Spirituel"
@@ -683,6 +1051,7 @@
    "atk": 6,
    "hp": 7,
    "art": true,
+   "external": false,
    "traits": [
     "Humain",
     "Scolaire",
@@ -709,6 +1078,7 @@
    "atk": 4,
    "hp": 6,
    "art": true,
+   "external": false,
    "traits": [
     "Humain",
     "Héros",
@@ -739,6 +1109,7 @@
    "atk": null,
    "hp": null,
    "art": true,
+   "external": false,
    "traits": [
     "Sport"
    ],
@@ -754,6 +1125,7 @@
    "atk": 5,
    "hp": 5,
    "art": true,
+   "external": false,
    "traits": [
     "Humain",
     "Mage",
@@ -778,6 +1150,7 @@
    "atk": 6,
    "hp": 7,
    "art": true,
+   "external": false,
    "traits": [
     "Humain",
     "Mage",
@@ -812,6 +1185,7 @@
    "atk": 5,
    "hp": 4,
    "art": true,
+   "external": false,
    "traits": [
     "Humain",
     "Épéiste",
@@ -838,6 +1212,7 @@
    "atk": null,
    "hp": null,
    "art": true,
+   "external": false,
    "traits": [
     "Esper"
    ],
@@ -858,6 +1233,7 @@
    "atk": 6,
    "hp": 4,
    "art": true,
+   "external": false,
    "traits": [
     "Saiyan",
     "Artiste Martial",
@@ -887,6 +1263,7 @@
    "atk": 6,
    "hp": 5,
    "art": true,
+   "external": false,
    "traits": [
     "Saiyan",
     "Artiste Martial",
@@ -917,6 +1294,7 @@
    "atk": 6,
    "hp": 6,
    "art": true,
+   "external": false,
    "traits": [
     "Humain",
     "Pirate"
@@ -932,6 +1310,24 @@
    }
   },
   {
+   "key": "gotenks",
+   "name": "Gotenks",
+   "rarity": "legendary",
+   "type": "Combattant",
+   "cost": 7,
+   "atk": 6,
+   "hp": 6,
+   "art": true,
+   "external": true,
+   "traits": [
+    "Saiyan",
+    "Humain",
+    "Super Guerrier"
+   ],
+   "keywords": [],
+   "text": "Naît de l'Union de Goten et Trunks. À l'arrivée : tous les Combattants adverses perdent 2 ATK définitivement."
+  },
+  {
    "key": "great_teacher_onizuka",
    "name": "Great Teacher Onizuka",
    "rarity": "legendary",
@@ -940,6 +1336,7 @@
    "atk": 7,
    "hp": 6,
    "art": true,
+   "external": false,
    "traits": [
     "Humain",
     "Scolaire",
@@ -966,6 +1363,7 @@
    "atk": 5,
    "hp": 2,
    "art": true,
+   "external": false,
    "traits": [
     "Démon",
     "Épéiste"
@@ -986,6 +1384,27 @@
    }
   },
   {
+   "key": "homme_oiseau_de_feu",
+   "name": "Homme-Oiseau de feu",
+   "rarity": "legendary",
+   "type": "Combattant",
+   "cost": 7,
+   "atk": 6,
+   "hp": 6,
+   "art": true,
+   "external": true,
+   "traits": [
+    "Héros"
+   ],
+   "keywords": [
+    {
+     "name": "Rush",
+     "hint": "peut attaquer un Combattant dès l'arrivée, pas le Leader"
+    }
+   ],
+   "text": "Naît de l'Union de Burstinatrix et d'Avian. À l'arrivée : inflige 3 dégâts au Leader adverse et 1 dégât à tous les Combattants adverses."
+  },
+  {
    "key": "jeanne_d_arc",
    "name": "Jeanne d'Arc",
    "rarity": "legendary",
@@ -994,6 +1413,7 @@
    "atk": 4,
    "hp": 4,
    "art": true,
+   "external": false,
    "traits": [
     "Humain"
    ],
@@ -1016,6 +1436,7 @@
    "atk": 6,
    "hp": 6,
    "art": true,
+   "external": false,
    "traits": [
     "Shinigami",
     "Gotei 13",
@@ -1041,6 +1462,7 @@
    "atk": 4,
    "hp": 4,
    "art": true,
+   "external": false,
    "traits": [
     "Humain",
     "Épéiste",
@@ -1066,6 +1488,7 @@
    "atk": 4,
    "hp": 5,
    "art": true,
+   "external": false,
    "traits": [
     "Humain",
     "Scolaire",
@@ -1073,6 +1496,36 @@
    ],
    "keywords": [],
    "text": "À l'arrivée : prenez le contrôle d'un Combattant adverse ciblé, de n'importe quel coût, jusqu'à la fin du tour : il gagne Rush (s'il reste de la place sur votre terrain)."
+  },
+  {
+   "key": "lune_superieure_six",
+   "name": "Lune Supérieure Six",
+   "rarity": "legendary",
+   "type": "Combattant",
+   "cost": 7,
+   "atk": 6,
+   "hp": 6,
+   "art": true,
+   "external": true,
+   "traits": [
+    "Démon"
+   ],
+   "keywords": [],
+   "text": "Naît de l'Union de Daki et Gyutaro. À l'arrivée : inflige 2 dégâts à tous les Combattants adverses."
+  },
+  {
+   "key": "magicien_sombre",
+   "name": "Magicien Sombre",
+   "rarity": "legendary",
+   "type": "Combattant",
+   "cost": 7,
+   "atk": 5,
+   "hp": 4,
+   "art": true,
+   "external": true,
+   "traits": [],
+   "keywords": [],
+   "text": "À l'arrivée : détruit un Combattant ou une Tactique adverse ciblé."
   },
   {
    "key": "magicienne_des_tenebres",
@@ -1083,6 +1536,7 @@
    "atk": 7,
    "hp": 4,
    "art": true,
+   "external": false,
    "traits": [
     "Mage"
    ],
@@ -1110,6 +1564,7 @@
    "atk": 5,
    "hp": 6,
    "art": true,
+   "external": false,
    "traits": [
     "Humain",
     "Mage"
@@ -1131,6 +1586,7 @@
    "atk": 6,
    "hp": 6,
    "art": true,
+   "external": false,
    "traits": [
     "Humain",
     "Pirate",
@@ -1155,6 +1611,7 @@
    "atk": 3,
    "hp": 4,
    "art": true,
+   "external": false,
    "traits": [
     "Humain",
     "Ninja"
@@ -1183,6 +1640,7 @@
    "atk": 6,
    "hp": 5,
    "art": true,
+   "external": false,
    "traits": [
     "Humain",
     "Ninja",
@@ -1207,6 +1665,7 @@
    "atk": 1,
    "hp": 1,
    "art": true,
+   "external": false,
    "traits": [
     "Dragon"
    ],
@@ -1227,6 +1686,7 @@
    "atk": 4,
    "hp": 5,
    "art": true,
+   "external": false,
    "traits": [
     "Humain",
     "Épéiste",
@@ -1252,6 +1712,7 @@
    "atk": 6,
    "hp": 6,
    "art": true,
+   "external": false,
    "traits": [
     "Humain",
     "Scolaire",
@@ -1269,6 +1730,7 @@
    "atk": 6,
    "hp": 6,
    "art": true,
+   "external": false,
    "traits": [
     "Humain",
     "Scolaire",
@@ -1298,6 +1760,7 @@
    "atk": 6,
    "hp": 6,
    "art": true,
+   "external": false,
    "traits": [
     "Humain",
     "Esper",
@@ -1315,6 +1778,7 @@
    "atk": 4,
    "hp": 6,
    "art": true,
+   "external": false,
    "traits": [
     "Humain",
     "Sport"
@@ -1338,6 +1802,7 @@
    "atk": 4,
    "hp": 5,
    "art": true,
+   "external": false,
    "traits": [],
    "keywords": [],
    "text": "À l'arrivée : pioche 1 carte.",
@@ -1358,6 +1823,7 @@
    "atk": 5,
    "hp": 5,
    "art": true,
+   "external": false,
    "traits": [
     "Épéiste",
     "Humain",
@@ -1383,6 +1849,7 @@
    "atk": 4,
    "hp": 3,
    "art": true,
+   "external": false,
    "traits": [
     "Shinigami",
     "Spirituel"
@@ -1411,6 +1878,7 @@
    "atk": 5,
    "hp": 6,
    "art": true,
+   "external": false,
    "traits": [
     "Humain",
     "Mage"
@@ -1434,6 +1902,7 @@
    "atk": 6,
    "hp": 8,
    "art": true,
+   "external": false,
    "traits": [
     "Humain",
     "Pirate",
@@ -1451,6 +1920,7 @@
    "atk": 3,
    "hp": 5,
    "art": true,
+   "external": false,
    "traits": [
     "Humain",
     "Héros",
@@ -1475,6 +1945,7 @@
    "atk": 0,
    "hp": 4,
    "art": true,
+   "external": false,
    "traits": [
     "Cyborg",
     "Super Guerrier"
@@ -1491,6 +1962,7 @@
    "atk": 7,
    "hp": 7,
    "art": true,
+   "external": false,
    "traits": [
     "Démon",
     "Stand",
@@ -1516,6 +1988,20 @@
    }
   },
   {
+   "key": "dragon_blanc_aux_yeux_bleus_ultime",
+   "name": "Dragon Blanc aux Yeux Bleus Ultime",
+   "rarity": "legendary",
+   "type": "Combattant",
+   "cost": 8,
+   "atk": 9,
+   "hp": 7,
+   "art": true,
+   "external": true,
+   "traits": [],
+   "keywords": [],
+   "text": "À l'arrivée : inflige 3 fois 3 dégâts, répartis au hasard parmi les Combattants adverses."
+  },
+  {
    "key": "freezer",
    "name": "Freezer",
    "rarity": "legendary",
@@ -1524,6 +2010,7 @@
    "atk": 7,
    "hp": 6,
    "art": true,
+   "external": false,
    "traits": [
     "Alien",
     "Super Guerrier"
@@ -1540,6 +2027,7 @@
    "atk": 6,
    "hp": 8,
    "art": true,
+   "external": false,
    "traits": [
     "Humain",
     "Scolaire",
@@ -1569,6 +2057,7 @@
    "atk": null,
    "hp": null,
    "art": true,
+   "external": false,
    "traits": [
     "Shinigami",
     "Spirituel"
@@ -1585,6 +2074,7 @@
    "atk": 6,
    "hp": 7,
    "art": true,
+   "external": false,
    "traits": [
     "Humain",
     "Ninja",
@@ -1608,6 +2098,7 @@
    "atk": 6,
    "hp": 7,
    "art": true,
+   "external": false,
    "traits": [
     "Humain",
     "Scolaire",
@@ -1623,6 +2114,22 @@
    "text": "À l'arrivée : votre Leader récupère 4 PV et les Combattants adverses perdent 2 ATK jusqu'à la fin du prochain tour adverse."
   },
   {
+   "key": "kamehameha_enrage",
+   "name": "Kamehameha Enragé",
+   "rarity": "legendary",
+   "type": "Action",
+   "cost": 8,
+   "atk": null,
+   "hp": null,
+   "art": true,
+   "external": true,
+   "traits": [
+    "Super Guerrier"
+   ],
+   "keywords": [],
+   "text": "Détruit tous les Combattants du terrain adverse."
+  },
+  {
    "key": "limule_tempest",
    "name": "Limule Tempest",
    "rarity": "legendary",
@@ -1631,6 +2138,7 @@
    "atk": 4,
    "hp": 4,
    "art": true,
+   "external": false,
    "traits": [
     "Monstre",
     "Roi Démon",
@@ -1656,6 +2164,7 @@
    "atk": 8,
    "hp": 7,
    "art": true,
+   "external": false,
    "traits": [
     "Nen",
     "Fourmi Chimère"
@@ -1672,6 +2181,7 @@
    "atk": 6,
    "hp": 6,
    "art": true,
+   "external": false,
    "traits": [
     "Démon"
    ],
@@ -1687,6 +2197,7 @@
    "atk": 5,
    "hp": 6,
    "art": true,
+   "external": false,
    "traits": [],
    "keywords": [],
    "text": "À l'arrivée : pioche 1 carte.",
@@ -1707,6 +2218,7 @@
    "atk": 7,
    "hp": 5,
    "art": true,
+   "external": false,
    "traits": [
     "Humain",
     "Épéiste",
@@ -1730,6 +2242,7 @@
    "atk": 5,
    "hp": 6,
    "art": true,
+   "external": false,
    "traits": [
     "Saiyan",
     "Super Saiyan",
@@ -1760,6 +2273,7 @@
    "atk": 6,
    "hp": 5,
    "art": true,
+   "external": false,
    "traits": [
     "Shinigami",
     "Épéiste",
@@ -1785,6 +2299,7 @@
    "atk": 6,
    "hp": 5,
    "art": true,
+   "external": false,
    "traits": [
     "Dragon"
    ],
@@ -1805,11 +2320,28 @@
    "atk": 6,
    "hp": 6,
    "art": true,
+   "external": false,
    "traits": [
     "Démon"
    ],
    "keywords": [],
    "text": "À la fin de votre tour : détruit un de vos AUTRES Combattants ciblés et inflige au Leader adverse l'ATK de ce Combattant en dégâts."
+  },
+  {
+   "key": "equation_imaginaire_violet",
+   "name": "Équation Imaginaire, Violet",
+   "rarity": "legendary",
+   "type": "Action",
+   "cost": 9,
+   "atk": null,
+   "hp": null,
+   "art": true,
+   "external": true,
+   "traits": [
+    "Exorciste"
+   ],
+   "keywords": [],
+   "text": "Détruit tous les Combattants adverses."
   },
   {
    "key": "genryusai_yamamoto",
@@ -1820,6 +2352,7 @@
    "atk": 7,
    "hp": 8,
    "art": true,
+   "external": false,
    "traits": [
     "Shinigami",
     "Gotei 13",
@@ -1843,6 +2376,7 @@
    "atk": 4,
    "hp": 3,
    "art": true,
+   "external": false,
    "traits": [
     "Dragon",
     "Roi Démon"
@@ -1871,6 +2405,7 @@
    "atk": 3,
    "hp": 4,
    "art": true,
+   "external": false,
    "traits": [
     "Shinigami",
     "Spirituel",
@@ -1900,6 +2435,7 @@
    "atk": null,
    "hp": null,
    "art": true,
+   "external": false,
    "traits": [
     "Commando Ginyu"
    ],
@@ -1915,6 +2451,7 @@
    "atk": 9,
    "hp": 6,
    "art": true,
+   "external": false,
    "traits": [
     "Malédiction"
    ],
@@ -1934,6 +2471,43 @@
    }
   },
   {
+   "key": "clone_aqueux",
+   "name": "Clone Aqueux",
+   "rarity": "epic",
+   "type": "Combattant",
+   "cost": 0,
+   "atk": 2,
+   "hp": 1,
+   "art": true,
+   "external": true,
+   "traits": [
+    "Ninja"
+   ],
+   "keywords": [
+    {
+     "name": "Rush",
+     "hint": "peut attaquer un Combattant dès l'arrivée, pas le Leader"
+    }
+   ],
+   "text": ""
+  },
+  {
+   "key": "kunai",
+   "name": "Kunai",
+   "rarity": "epic",
+   "type": "Action",
+   "cost": 1,
+   "atk": null,
+   "hp": null,
+   "art": true,
+   "external": true,
+   "traits": [
+    "Ninja"
+   ],
+   "keywords": [],
+   "text": "Inflige -2 PV à un Combattant adverse ciblé."
+  },
+  {
    "key": "yoshiwara",
    "name": "Yoshiwara",
    "rarity": "epic",
@@ -1942,6 +2516,7 @@
    "atk": null,
    "hp": null,
    "art": true,
+   "external": false,
    "traits": [],
    "keywords": [],
    "text": "Compteur 5. Quand vous jouez une carte, s'il y a sur l'un des deux terrains une autre carte de même coût : soignez votre Leader de 1 et baissez de 1 le compteur de cette Tactique. Dernier Souffle : piochez 2 cartes."
@@ -1955,6 +2530,7 @@
    "atk": null,
    "hp": null,
    "art": true,
+   "external": false,
    "traits": [
     "Dragon"
    ],
@@ -1970,6 +2546,7 @@
    "atk": null,
    "hp": null,
    "art": true,
+   "external": false,
    "traits": [
     "Shinigami",
     "Spirituel"
@@ -1986,11 +2563,30 @@
    "atk": null,
    "hp": null,
    "art": true,
+   "external": false,
    "traits": [
     "Pirate"
    ],
    "keywords": [],
    "text": "Injouable sans Combattant adverse de coût 3 ou moins, ni sans place sur votre terrain. Prenez le contrôle d'un Combattant adverse de coût 3 ou moins ciblé jusqu'à la fin du tour : il gagne Rush."
+  },
+  {
+   "key": "sabre_du_lac_toya",
+   "name": "Sabre du Lac Toya",
+   "rarity": "epic",
+   "type": "Action",
+   "cost": 2,
+   "atk": null,
+   "hp": null,
+   "art": true,
+   "external": true,
+   "traits": [
+    "Épéiste",
+    "Yorozuya",
+    "Silver Soul"
+   ],
+   "keywords": [],
+   "text": "Peut aussi cibler un Combattant Silver Soul. Ciblez un Épéiste allié : double son ATK ce tour, il ne subit pas de dégâts de combat et ne peut pas attaquer le Leader ce tour."
   },
   {
    "key": "soka",
@@ -2001,6 +2597,7 @@
    "atk": 2,
    "hp": 1,
    "art": true,
+   "external": false,
    "traits": [
     "Monstre",
     "Dragon",
@@ -2019,6 +2616,7 @@
    "atk": 1,
    "hp": 3,
    "art": true,
+   "external": false,
    "traits": [
     "Humain",
     "Temporel"
@@ -2035,6 +2633,7 @@
    "atk": 2,
    "hp": 2,
    "art": true,
+   "external": false,
    "traits": [
     "Humain",
     "Ninja",
@@ -2052,6 +2651,7 @@
    "atk": 3,
    "hp": 3,
    "art": true,
+   "external": false,
    "traits": [
     "Humain",
     "Mage",
@@ -2074,6 +2674,7 @@
    "atk": 2,
    "hp": 3,
    "art": true,
+   "external": false,
    "traits": [
     "Héros"
    ],
@@ -2094,6 +2695,7 @@
    "atk": 3,
    "hp": 2,
    "art": true,
+   "external": false,
    "traits": [
     "Saiyan",
     "Super Guerrier"
@@ -2115,6 +2717,7 @@
    "atk": 3,
    "hp": 2,
    "art": true,
+   "external": false,
    "traits": [
     "Héros"
    ],
@@ -2135,6 +2738,7 @@
    "atk": null,
    "hp": null,
    "art": true,
+   "external": false,
    "traits": [
     "Démon"
    ],
@@ -2150,11 +2754,40 @@
    "atk": null,
    "hp": null,
    "art": true,
+   "external": false,
    "traits": [
     "Pirate"
    ],
    "keywords": [],
    "text": "Compteur 3. Au début de chacun de vos tours : vos Combattants Pirates gagnent +1 ATK jusqu'à la fin du tour. À l'expiration : inflige 2 dégâts au Leader adverse."
+  },
+  {
+   "key": "droite",
+   "name": "Droite",
+   "rarity": "epic",
+   "type": "Combattant",
+   "cost": 3,
+   "atk": 2,
+   "hp": 2,
+   "art": true,
+   "external": true,
+   "traits": [
+    "Monstre"
+   ],
+   "keywords": [
+    {
+     "name": "Rempart",
+     "hint": "l'adversaire est obligé de l'attaquer"
+    }
+   ],
+   "text": "Rempart. Combativité : soigne votre Leader de 1 PV.",
+   "evolution": {
+    "name": "Droite",
+    "zenkai": 3,
+    "atk": 3,
+    "hp": 4,
+    "text": ""
+   }
   },
   {
    "key": "gabimaru",
@@ -2165,6 +2798,7 @@
    "atk": 3,
    "hp": 3,
    "art": true,
+   "external": false,
    "traits": [
     "Humain",
     "Ninja"
@@ -2193,6 +2827,7 @@
    "atk": null,
    "hp": null,
    "art": true,
+   "external": false,
    "traits": [
     "Monstre"
    ],
@@ -2205,6 +2840,34 @@
    "text": "Divergence : invoquez Gauche OU Droite (au choix, depuis l'extérieur du deck). Surrégime 7 : annule Divergence, invoque les 2. Surrégime 10 : annule Divergence, invoque les 2 et les fait évoluer."
   },
   {
+   "key": "gauche",
+   "name": "Gauche",
+   "rarity": "epic",
+   "type": "Combattant",
+   "cost": 3,
+   "atk": 3,
+   "hp": 1,
+   "art": true,
+   "external": true,
+   "traits": [
+    "Monstre"
+   ],
+   "keywords": [
+    {
+     "name": "Rush",
+     "hint": "peut attaquer un Combattant dès l'arrivée, pas le Leader"
+    }
+   ],
+   "text": "Rush. Combativité : inflige 1 dégât au Leader adverse.",
+   "evolution": {
+    "name": "Gauche",
+    "zenkai": 3,
+    "atk": 4,
+    "hp": 2,
+    "text": ""
+   }
+  },
+  {
    "key": "goten",
    "name": "Goten",
    "rarity": "epic",
@@ -2213,6 +2876,7 @@
    "atk": 2,
    "hp": 3,
    "art": true,
+   "external": false,
    "traits": [
     "Saiyan",
     "Humain",
@@ -2235,6 +2899,7 @@
    "atk": null,
    "hp": null,
    "art": true,
+   "external": false,
    "traits": [
     "Dragon"
    ],
@@ -2250,6 +2915,7 @@
    "atk": 2,
    "hp": 1,
    "art": true,
+   "external": false,
    "traits": [
     "Yato",
     "Artiste Martial",
@@ -2269,6 +2935,7 @@
    "atk": 3,
    "hp": 2,
    "art": true,
+   "external": false,
    "traits": [
     "Humain",
     "Assassin"
@@ -2290,6 +2957,7 @@
    "atk": null,
    "hp": null,
    "art": true,
+   "external": false,
    "traits": [
     "Épéiste"
    ],
@@ -2305,6 +2973,7 @@
    "atk": 0,
    "hp": 3,
    "art": true,
+   "external": false,
    "traits": [
     "Monstre",
     "Jura Tempest"
@@ -2326,6 +2995,7 @@
    "atk": 3,
    "hp": 3,
    "art": true,
+   "external": false,
    "traits": [
     "Humain",
     "Pirate",
@@ -2350,6 +3020,7 @@
    "atk": 3,
    "hp": 2,
    "art": true,
+   "external": false,
    "traits": [
     "Humain",
     "Esper",
@@ -2383,6 +3054,7 @@
    "atk": 3,
    "hp": 2,
    "art": true,
+   "external": false,
    "traits": [
     "Humain",
     "Épéiste",
@@ -2416,6 +3088,7 @@
    "atk": 3,
    "hp": 2,
    "art": true,
+   "external": false,
    "traits": [
     "Saiyan",
     "Artiste Martial",
@@ -2433,6 +3106,7 @@
    "atk": 3,
    "hp": 3,
    "art": true,
+   "external": false,
    "traits": [
     "Humain",
     "Pirate",
@@ -2454,6 +3128,22 @@
    }
   },
   {
+   "key": "sang_perforant",
+   "name": "Sang Perforant",
+   "rarity": "epic",
+   "type": "Action",
+   "cost": 3,
+   "atk": null,
+   "hp": null,
+   "art": true,
+   "external": true,
+   "traits": [
+    "Malédiction"
+   ],
+   "keywords": [],
+   "text": "Inflige 2 dégâts à un Combattant adverse ciblé et 2 dégâts directs au Leader adverse."
+  },
+  {
    "key": "sougo_okita",
    "name": "Sougo Okita",
    "rarity": "epic",
@@ -2462,6 +3152,7 @@
    "atk": 2,
    "hp": 2,
    "art": true,
+   "external": false,
    "traits": [
     "Humain",
     "Épéiste",
@@ -2492,6 +3183,7 @@
    "atk": null,
    "hp": null,
    "art": true,
+   "external": false,
    "traits": [
     "Artiste Martial"
    ],
@@ -2507,6 +3199,7 @@
    "atk": 3,
    "hp": 2,
    "art": true,
+   "external": false,
    "traits": [
     "Saiyan",
     "Humain",
@@ -2529,6 +3222,7 @@
    "atk": 3,
    "hp": 3,
    "art": true,
+   "external": false,
    "traits": [
     "Humain",
     "Ninja",
@@ -2553,6 +3247,7 @@
    "atk": 3,
    "hp": 3,
    "art": true,
+   "external": false,
    "traits": [
     "Saiyan",
     "Artiste Martial",
@@ -2577,6 +3272,7 @@
    "atk": 3,
    "hp": 3,
    "art": true,
+   "external": false,
    "traits": [
     "Démon",
     "Humain"
@@ -2605,6 +3301,7 @@
    "atk": null,
    "hp": null,
    "art": true,
+   "external": false,
    "traits": [
     "Dragon"
    ],
@@ -2620,6 +3317,7 @@
    "atk": 2,
    "hp": 2,
    "art": true,
+   "external": false,
    "traits": [
     "Humain",
     "Scolaire",
@@ -2637,6 +3335,7 @@
    "atk": 3,
    "hp": 4,
    "art": true,
+   "external": false,
    "traits": [
     "Humain",
     "Malédiction"
@@ -2660,6 +3359,7 @@
    "atk": 3,
    "hp": 2,
    "art": true,
+   "external": false,
    "traits": [
     "Humain",
     "Cuisine"
@@ -2688,6 +3388,7 @@
    "atk": null,
    "hp": null,
    "art": true,
+   "external": false,
    "traits": [],
    "keywords": [],
    "text": "Injouable sauf si vous avez 0 Point Zenkai, que votre adversaire en a encore et qu'il a plus de Combattants que vous. Ciblez un de vos Combattants dont l'évolution n'est pas activée : il évolue gratuitement SANS déclencher l'effet de son évolution, puis gagne +3 ATK et Rush (permanents)."
@@ -2701,6 +3402,7 @@
    "atk": 3,
    "hp": 3,
    "art": true,
+   "external": false,
    "traits": [
     "Humain",
     "Mage"
@@ -2717,6 +3419,7 @@
    "atk": 4,
    "hp": 3,
    "art": true,
+   "external": false,
    "traits": [
     "Humain",
     "Scolaire",
@@ -2734,6 +3437,7 @@
    "atk": null,
    "hp": null,
    "art": true,
+   "external": false,
    "traits": [
     "Monstre",
     "Jura Tempest"
@@ -2750,6 +3454,7 @@
    "atk": 3,
    "hp": 4,
    "art": true,
+   "external": false,
    "traits": [
     "Humain",
     "Épéiste",
@@ -2775,6 +3480,7 @@
    "atk": null,
    "hp": null,
    "art": true,
+   "external": false,
    "traits": [
     "Super Guerrier"
    ],
@@ -2790,6 +3496,7 @@
    "atk": 3,
    "hp": 5,
    "art": true,
+   "external": false,
    "traits": [
     "Humain",
     "Ninja",
@@ -2819,6 +3526,7 @@
    "atk": 3,
    "hp": 4,
    "art": true,
+   "external": false,
    "traits": [
     "Humain",
     "Épéiste",
@@ -2836,6 +3544,7 @@
    "atk": 3,
    "hp": 3,
    "art": true,
+   "external": false,
    "traits": [
     "Humain",
     "Assassin"
@@ -2859,6 +3568,7 @@
    "atk": 3,
    "hp": 4,
    "art": true,
+   "external": false,
    "traits": [
     "Humain",
     "Furyo",
@@ -2881,6 +3591,7 @@
    "atk": 2,
    "hp": 3,
    "art": true,
+   "external": false,
    "traits": [
     "Malédiction"
    ],
@@ -2903,6 +3614,7 @@
    "atk": 3,
    "hp": 3,
    "art": true,
+   "external": false,
    "traits": [
     "Humain",
     "Scolaire",
@@ -2926,6 +3638,7 @@
    "atk": 3,
    "hp": 4,
    "art": true,
+   "external": false,
    "traits": [
     "Humain",
     "Scolaire"
@@ -2942,6 +3655,7 @@
    "atk": 3,
    "hp": 3,
    "art": true,
+   "external": false,
    "traits": [
     "Humain",
     "Mage",
@@ -2966,6 +3680,7 @@
    "atk": 3,
    "hp": 3,
    "art": true,
+   "external": false,
    "traits": [
     "Humain",
     "Esper",
@@ -2988,6 +3703,7 @@
    "atk": 3,
    "hp": 3,
    "art": true,
+   "external": false,
    "traits": [
     "Humain",
     "Ninja"
@@ -3016,6 +3732,7 @@
    "atk": 3,
    "hp": 3,
    "art": true,
+   "external": false,
    "traits": [
     "Humain",
     "Épéiste",
@@ -3034,6 +3751,7 @@
    "atk": null,
    "hp": null,
    "art": true,
+   "external": false,
    "traits": [
     "Stand"
    ],
@@ -3049,6 +3767,7 @@
    "atk": null,
    "hp": null,
    "art": true,
+   "external": false,
    "traits": [
     "Shinigami",
     "Spirituel"
@@ -3065,6 +3784,7 @@
    "atk": null,
    "hp": null,
    "art": true,
+   "external": false,
    "traits": [
     "Shinigami",
     "Spirituel"
@@ -3081,6 +3801,7 @@
    "atk": null,
    "hp": null,
    "art": true,
+   "external": false,
    "traits": [
     "Furyo"
    ],
@@ -3096,6 +3817,7 @@
    "atk": 3,
    "hp": 3,
    "art": true,
+   "external": false,
    "traits": [
     "Humain",
     "Démon",
@@ -3114,6 +3836,7 @@
    "atk": 3,
    "hp": 4,
    "art": true,
+   "external": false,
    "traits": [
     "Démon"
    ],
@@ -3136,6 +3859,7 @@
    "atk": 3,
    "hp": 3,
    "art": true,
+   "external": false,
    "traits": [],
    "keywords": [],
    "text": "À l'arrivée : inflige 2 dégâts à un Combattant adverse au hasard et 2 dégâts au Leader adverse."
@@ -3149,6 +3873,7 @@
    "atk": 2,
    "hp": 6,
    "art": true,
+   "external": false,
    "traits": [
     "Humain",
     "Scolaire",
@@ -3173,6 +3898,7 @@
    "atk": 3,
    "hp": 4,
    "art": true,
+   "external": false,
    "traits": [
     "Shinigami",
     "Gotei 13",
@@ -3198,6 +3924,7 @@
    "atk": 2,
    "hp": 3,
    "art": true,
+   "external": false,
    "traits": [
     "Humain",
     "Dragon"
@@ -3221,6 +3948,7 @@
    "atk": 3,
    "hp": 3,
    "art": true,
+   "external": false,
    "traits": [
     "Humain",
     "Ninja"
@@ -3237,6 +3965,7 @@
    "atk": 2,
    "hp": 3,
    "art": true,
+   "external": false,
    "traits": [
     "Humain",
     "Cuisine"
@@ -3253,6 +3982,7 @@
    "atk": null,
    "hp": null,
    "art": true,
+   "external": false,
    "traits": [
     "Super Guerrier",
     "Temporel"
@@ -3269,6 +3999,7 @@
    "atk": 3,
    "hp": 3,
    "art": true,
+   "external": false,
    "traits": [
     "Humain",
     "Pirate",
@@ -3293,6 +4024,7 @@
    "atk": 4,
    "hp": 3,
    "art": true,
+   "external": false,
    "traits": [
     "Saiyan",
     "Humain",
@@ -3316,6 +4048,7 @@
    "atk": 3,
    "hp": 4,
    "art": true,
+   "external": false,
    "traits": [
     "Démon",
     "Mage"
@@ -3348,6 +4081,7 @@
    "atk": 3,
    "hp": 3,
    "art": true,
+   "external": false,
    "traits": [
     "Humain",
     "Scolaire",
@@ -3372,6 +4106,7 @@
    "atk": 3,
    "hp": 4,
    "art": true,
+   "external": false,
    "traits": [
     "Humain",
     "Mage"
@@ -3388,6 +4123,7 @@
    "atk": 4,
    "hp": 4,
    "art": true,
+   "external": false,
    "traits": [
     "Démon",
     "Mage"
@@ -3416,6 +4152,7 @@
    "atk": 4,
    "hp": 3,
    "art": true,
+   "external": false,
    "traits": [
     "Humain",
     "Pirate",
@@ -3440,6 +4177,7 @@
    "atk": 4,
    "hp": 4,
    "art": true,
+   "external": false,
    "traits": [
     "Dragon"
    ],
@@ -3455,6 +4193,7 @@
    "atk": 4,
    "hp": 4,
    "art": true,
+   "external": false,
    "traits": [
     "Démon"
    ],
@@ -3475,6 +4214,7 @@
    "atk": null,
    "hp": null,
    "art": true,
+   "external": false,
    "traits": [
     "Furyo"
    ],
@@ -3490,6 +4230,7 @@
    "atk": 4,
    "hp": 4,
    "art": true,
+   "external": false,
    "traits": [
     "Humain",
     "Mafia",
@@ -3512,6 +4253,7 @@
    "atk": 4,
    "hp": 4,
    "art": true,
+   "external": false,
    "traits": [
     "Shinigami",
     "Gotei 13",
@@ -3537,6 +4279,7 @@
    "atk": 4,
    "hp": 5,
    "art": true,
+   "external": false,
    "traits": [
     "Super Guerrier",
     "Épéiste",
@@ -3554,6 +4297,7 @@
    "atk": 3,
    "hp": 3,
    "art": true,
+   "external": false,
    "traits": [
     "Humain",
     "Sport"
@@ -3570,6 +4314,7 @@
    "atk": 2,
    "hp": 5,
    "art": true,
+   "external": false,
    "traits": [
     "Démon"
    ],
@@ -3594,6 +4339,7 @@
    "atk": 4,
    "hp": 5,
    "art": true,
+   "external": false,
    "traits": [
     "Démon",
     "Mage"
@@ -3617,6 +4363,7 @@
    "atk": null,
    "hp": null,
    "art": true,
+   "external": false,
    "traits": [
     "Épéiste"
    ],
@@ -3632,6 +4379,7 @@
    "atk": 4,
    "hp": 4,
    "art": true,
+   "external": false,
    "traits": [
     "Dragon"
    ],
@@ -3647,6 +4395,7 @@
    "atk": null,
    "hp": null,
    "art": true,
+   "external": false,
    "traits": [
     "Mage"
    ],
@@ -3662,6 +4411,7 @@
    "atk": 6,
    "hp": 3,
    "art": true,
+   "external": false,
    "traits": [
     "Humain",
     "Nen",
@@ -3679,6 +4429,7 @@
    "atk": 3,
    "hp": 6,
    "art": true,
+   "external": false,
    "traits": [
     "Cyborg",
     "Pirate"
@@ -3695,6 +4446,7 @@
    "atk": 4,
    "hp": 4,
    "art": true,
+   "external": false,
    "traits": [
     "Humain",
     "Ninja",
@@ -3724,6 +4476,7 @@
    "atk": 4,
    "hp": 3,
    "art": true,
+   "external": false,
    "traits": [
     "Humain",
     "Assassin"
@@ -3745,6 +4498,7 @@
    "atk": 4,
    "hp": 3,
    "art": true,
+   "external": false,
    "traits": [
     "Démon"
    ],
@@ -3769,6 +4523,7 @@
    "atk": 4,
    "hp": 4,
    "art": true,
+   "external": false,
    "traits": [
     "Humain",
     "Nen"
@@ -3785,6 +4540,7 @@
    "atk": 4,
    "hp": 3,
    "art": true,
+   "external": false,
    "traits": [
     "Malédiction"
    ],
@@ -3807,6 +4563,7 @@
    "atk": 4,
    "hp": 4,
    "art": true,
+   "external": false,
    "traits": [
     "Yato",
     "Alien",
@@ -3838,6 +4595,7 @@
    "atk": 4,
    "hp": 3,
    "art": true,
+   "external": false,
    "traits": [
     "Yato",
     "Alien",
@@ -3867,6 +4625,7 @@
    "atk": 4,
    "hp": 4,
    "art": true,
+   "external": false,
    "traits": [
     "Humain",
     "Scolaire",
@@ -3892,6 +4651,7 @@
    "atk": 3,
    "hp": 4,
    "art": true,
+   "external": false,
    "traits": [
     "Humain",
     "Cuisine"
@@ -3913,6 +4673,7 @@
    "atk": 3,
    "hp": 5,
    "art": true,
+   "external": false,
    "traits": [
     "Humain",
     "Démon"
@@ -3929,6 +4690,7 @@
    "atk": 4,
    "hp": 4,
    "art": true,
+   "external": false,
    "traits": [
     "Humain",
     "Scolaire",
@@ -3953,6 +4715,7 @@
    "atk": 2,
    "hp": 4,
    "art": true,
+   "external": false,
    "traits": [
     "Shinigami",
     "Gotei 13",
@@ -3969,6 +4732,27 @@
    }
   },
   {
+   "key": "menos_grande",
+   "name": "Menos Grande",
+   "rarity": "epic",
+   "type": "Combattant",
+   "cost": 5,
+   "atk": 3,
+   "hp": 4,
+   "art": true,
+   "external": true,
+   "traits": [
+    "Hollow"
+   ],
+   "keywords": [
+    {
+     "name": "Rempart",
+     "hint": "l'adversaire est obligé de l'attaquer"
+    }
+   ],
+   "text": "Gros Hollow invoqué par Garganta."
+  },
+  {
    "key": "mikoto_misaka",
    "name": "Mikoto Misaka",
    "rarity": "epic",
@@ -3977,6 +4761,7 @@
    "atk": 4,
    "hp": 4,
    "art": true,
+   "external": false,
    "traits": [
     "Humain",
     "Scolaire",
@@ -4002,6 +4787,7 @@
    "atk": 3,
    "hp": 3,
    "art": true,
+   "external": false,
    "traits": [
     "Humain",
     "Scolaire",
@@ -4027,6 +4813,7 @@
    "atk": 3,
    "hp": 5,
    "art": true,
+   "external": false,
    "traits": [
     "Nen",
     "Fourmi Chimère"
@@ -4043,6 +4830,7 @@
    "atk": null,
    "hp": null,
    "art": true,
+   "external": false,
    "traits": [
     "Ninja"
    ],
@@ -4058,6 +4846,7 @@
    "atk": null,
    "hp": null,
    "art": true,
+   "external": false,
    "traits": [],
    "keywords": [],
    "text": "Injouable si vos Points Zenkai sont au maximum, ou s'il reste moins de 3 cartes en main à vous ou à l'adversaire une fois celle-ci jouée. Trois de vos cartes et trois de celles de l'adversaire sont tirées au hasard : on additionne leurs coûts (une carte de coût supérieur à 10 compte pour 10 ; seuls les coûts sont révélés). Total le plus haut chez vous : +1 Point Zenkai. Total le plus haut chez l'adversaire : vous perdez 6 PV. Égalité : chaque joueur gagne 1 Point Zenkai."
@@ -4071,6 +4860,7 @@
    "atk": null,
    "hp": null,
    "art": true,
+   "external": false,
    "traits": [
     "Ninja"
    ],
@@ -4086,6 +4876,7 @@
    "atk": 3,
    "hp": 5,
    "art": true,
+   "external": false,
    "traits": [
     "Cyborg",
     "Silver Soul"
@@ -4107,6 +4898,7 @@
    "atk": 4,
    "hp": 4,
    "art": true,
+   "external": false,
    "traits": [
     "Humain",
     "Dragon"
@@ -4123,6 +4915,7 @@
    "atk": 4,
    "hp": 4,
    "art": true,
+   "external": false,
    "traits": [
     "Cyborg",
     "Yorozuya",
@@ -4140,6 +4933,7 @@
    "atk": 3,
    "hp": 5,
    "art": true,
+   "external": false,
    "traits": [
     "Humain",
     "Scolaire",
@@ -4157,6 +4951,7 @@
    "atk": 4,
    "hp": 4,
    "art": true,
+   "external": false,
    "traits": [
     "Dragon",
     "Monstre",
@@ -4174,6 +4969,7 @@
    "atk": 5,
    "hp": 4,
    "art": true,
+   "external": false,
    "traits": [
     "Humain",
     "Scolaire",
@@ -4208,6 +5004,7 @@
    "atk": 1,
    "hp": 5,
    "art": true,
+   "external": false,
    "traits": [
     "Monstre",
     "Soin",
@@ -4230,6 +5027,7 @@
    "atk": 4,
    "hp": 5,
    "art": true,
+   "external": false,
    "traits": [
     "Humain",
     "Scolaire",
@@ -4264,6 +5062,7 @@
    "atk": 5,
    "hp": 4,
    "art": true,
+   "external": false,
    "traits": [
     "Humain",
     "Scolaire",
@@ -4289,6 +5088,7 @@
    "atk": 3,
    "hp": 4,
    "art": true,
+   "external": false,
    "traits": [
     "Humain",
     "Malédiction"
@@ -4305,6 +5105,7 @@
    "atk": 3,
    "hp": 6,
    "art": true,
+   "external": false,
    "traits": [
     "Humain",
     "Assassin"
@@ -4328,6 +5129,7 @@
    "atk": 3,
    "hp": 2,
    "art": true,
+   "external": false,
    "traits": [
     "Dragon",
     "Mage"
@@ -4351,6 +5153,7 @@
    "atk": 4,
    "hp": 2,
    "art": true,
+   "external": false,
    "traits": [
     "Humain",
     "Artiste Martial",
@@ -4368,6 +5171,7 @@
    "atk": 4,
    "hp": 6,
    "art": true,
+   "external": false,
    "traits": [
     "Shinigami",
     "Gotei 13",
@@ -4393,6 +5197,7 @@
    "atk": 1,
    "hp": 3,
    "art": true,
+   "external": false,
    "traits": [
     "Humain",
     "Mage",
@@ -4415,6 +5220,7 @@
    "atk": 4,
    "hp": 5,
    "art": true,
+   "external": false,
    "traits": [
     "Humain",
     "Scolaire",
@@ -4439,6 +5245,7 @@
    "atk": 5,
    "hp": 4,
    "art": true,
+   "external": false,
    "traits": [
     "Humain",
     "Scolaire",
@@ -4461,6 +5268,7 @@
    "atk": 4,
    "hp": 5,
    "art": true,
+   "external": false,
    "traits": [
     "Alien",
     "Super Guerrier",
@@ -4478,6 +5286,7 @@
    "atk": 5,
    "hp": 4,
    "art": true,
+   "external": false,
    "traits": [
     "Démon"
    ],
@@ -4493,6 +5302,7 @@
    "atk": null,
    "hp": null,
    "art": true,
+   "external": false,
    "traits": [],
    "keywords": [],
    "text": "Compteur 2. Tant qu'elle est en jeu, l'adversaire ne peut pas attaquer votre Leader."
@@ -4506,6 +5316,7 @@
    "atk": 5,
    "hp": 6,
    "art": true,
+   "external": false,
    "traits": [
     "Humain",
     "Scolaire",
@@ -4530,6 +5341,7 @@
    "atk": 6,
    "hp": 4,
    "art": true,
+   "external": false,
    "traits": [
     "Humain",
     "Scolaire",
@@ -4557,6 +5369,7 @@
    "atk": 4,
    "hp": 4,
    "art": true,
+   "external": false,
    "traits": [
     "Humain",
     "Scolaire",
@@ -4579,6 +5392,27 @@
    }
   },
   {
+   "key": "rika",
+   "name": "Rika Orimoto",
+   "rarity": "epic",
+   "type": "Combattant",
+   "cost": 6,
+   "atk": 6,
+   "hp": 5,
+   "art": true,
+   "external": true,
+   "traits": [
+    "Malédiction"
+   ],
+   "keywords": [
+    {
+     "name": "Rempart",
+     "hint": "l'adversaire est obligé de l'attaquer"
+    }
+   ],
+   "text": "Rempart. Si Yuta Okkotsu est sur votre terrain : coûte 2 de moins et arrive avec Rush."
+  },
+  {
    "key": "souffle_de_calamite",
    "name": "Souffle de Calamité",
    "rarity": "epic",
@@ -4587,6 +5421,7 @@
    "atk": null,
    "hp": null,
    "art": true,
+   "external": false,
    "traits": [
     "Dragon"
    ],
@@ -4602,6 +5437,7 @@
    "atk": 6,
    "hp": 4,
    "art": true,
+   "external": false,
    "traits": [
     "Humain",
     "Sans Énergie Maudite",
@@ -4625,6 +5461,7 @@
    "atk": 5,
    "hp": 5,
    "art": true,
+   "external": false,
    "traits": [
     "Humain",
     "Nen",
@@ -4647,6 +5484,7 @@
    "atk": 4,
    "hp": 4,
    "art": true,
+   "external": false,
    "traits": [
     "Monstre",
     "Épéiste",
@@ -4676,6 +5514,7 @@
    "atk": 5,
    "hp": 5,
    "art": true,
+   "external": false,
    "traits": [
     "Dragon"
    ],
@@ -4696,6 +5535,7 @@
    "atk": 5,
    "hp": 3,
    "art": true,
+   "external": false,
    "traits": [
     "Humain",
     "Scolaire",
@@ -4725,6 +5565,7 @@
    "atk": null,
    "hp": null,
    "art": true,
+   "external": false,
    "traits": [
     "Hollow",
     "Spirituel"
@@ -4741,6 +5582,7 @@
    "atk": 5,
    "hp": 5,
    "art": true,
+   "external": false,
    "traits": [
     "Alien",
     "Yato"
@@ -4762,6 +5604,7 @@
    "atk": 5,
    "hp": 3,
    "art": true,
+   "external": false,
    "traits": [
     "Humain",
     "Exorciste"
@@ -4783,6 +5626,7 @@
    "atk": 6,
    "hp": 8,
    "art": true,
+   "external": false,
    "traits": [
     "Humain",
     "Nen"
@@ -4799,6 +5643,7 @@
    "atk": 4,
    "hp": 4,
    "art": true,
+   "external": false,
    "traits": [
     "Alien",
     "Artiste Martial",
@@ -4829,6 +5674,7 @@
    "atk": 4,
    "hp": 6,
    "art": true,
+   "external": false,
    "traits": [
     "Humain",
     "Scolaire",
@@ -4852,6 +5698,7 @@
    "atk": 7,
    "hp": 6,
    "art": true,
+   "external": false,
    "traits": [
     "Humain",
     "Nen",
@@ -4874,6 +5721,7 @@
    "atk": 5,
    "hp": 6,
    "art": true,
+   "external": false,
    "traits": [
     "Alien",
     "Yato",
@@ -4896,6 +5744,7 @@
    "atk": 5,
    "hp": 4,
    "art": true,
+   "external": false,
    "traits": [
     "Humain",
     "Ninja",
@@ -4918,6 +5767,7 @@
    "atk": null,
    "hp": null,
    "art": true,
+   "external": false,
    "traits": [
     "Super Guerrier"
    ],
@@ -4933,9 +5783,90 @@
    "atk": null,
    "hp": null,
    "art": true,
+   "external": false,
    "traits": [],
    "keywords": [],
    "text": "Regagnez 1 Point Zenkai. Injouable si vos Points Zenkai sont déjà au maximum. Tant qu'elle reste dans votre main, son coût baisse définitivement de 1 à chacune de vos évolutions, par Point Zenkai du coût d'origine de l'évolution (même si elle a été réduite ou gratuite)."
+  },
+  {
+   "key": "ae86",
+   "name": "AE86",
+   "rarity": "rare",
+   "type": "Tactique",
+   "cost": 0,
+   "atk": null,
+   "hp": null,
+   "art": true,
+   "external": true,
+   "traits": [],
+   "keywords": [],
+   "text": "Sans compteur. Quand vous jouez un Combattant : il gagne Rush et +1 ATK, puis l'AE86 se détruit."
+  },
+  {
+   "key": "elizabeth",
+   "name": "Elizabeth",
+   "rarity": "rare",
+   "type": "Combattant",
+   "cost": 0,
+   "atk": 0,
+   "hp": 2,
+   "art": true,
+   "external": true,
+   "traits": [
+    "Animal",
+    "Silver Soul"
+   ],
+   "keywords": [
+    {
+     "name": "Rempart",
+     "hint": "l'adversaire est obligé de l'attaquer"
+    }
+   ],
+   "text": ""
+  },
+  {
+   "key": "ombre",
+   "name": "Ombre",
+   "rarity": "rare",
+   "type": "Combattant",
+   "cost": 0,
+   "atk": 2,
+   "hp": 2,
+   "art": true,
+   "external": true,
+   "traits": [
+    "Démon"
+   ],
+   "keywords": [
+    {
+     "name": "Rempart",
+     "hint": "l'adversaire est obligé de l'attaquer"
+    }
+   ],
+   "text": "Dernier Souffle : votre Leader perd 1 PV."
+  },
+  {
+   "key": "sadaharu",
+   "name": "Sadaharu",
+   "rarity": "rare",
+   "type": "Combattant",
+   "cost": 0,
+   "atk": 1,
+   "hp": 1,
+   "art": true,
+   "external": true,
+   "traits": [
+    "Animal",
+    "Yorozuya",
+    "Silver Soul"
+   ],
+   "keywords": [
+    {
+     "name": "Rempart",
+     "hint": "l'adversaire est obligé de l'attaquer"
+    }
+   ],
+   "text": "Dernier Souffle : vos Combattants Yorozuya gagnent +2 PV définitivement, et vos autres Combattants Silver Soul ou Yato +1 PV définitivement (non cumulables)."
   },
   {
    "key": "bond_forger",
@@ -4946,6 +5877,7 @@
    "atk": 1,
    "hp": 2,
    "art": true,
+   "external": false,
    "traits": [
     "Animal",
     "Esper",
@@ -4963,6 +5895,7 @@
    "atk": 1,
    "hp": 1,
    "art": true,
+   "external": false,
    "traits": [
     "Humain"
    ],
@@ -4978,6 +5911,7 @@
    "atk": null,
    "hp": null,
    "art": true,
+   "external": false,
    "traits": [
     "Cuisine"
    ],
@@ -4993,11 +5927,28 @@
    "atk": null,
    "hp": null,
    "art": true,
+   "external": false,
    "traits": [
     "Cuisine"
    ],
    "keywords": [],
    "text": "Donne +0/+1 à un Combattant allié ciblé. Si vous avez déjà joué 5 Actions Cuisine durant la partie, lui donne aussi +1 ATK et Rush. Au début de votre prochain tour, ajoute une Cuisine Raffinée ou une Cuisine Catastrophique de votre deck à votre main."
+  },
+  {
+   "key": "kunai_explosif",
+   "name": "Kunai Explosif",
+   "rarity": "rare",
+   "type": "Action",
+   "cost": 1,
+   "atk": null,
+   "hp": null,
+   "art": true,
+   "external": true,
+   "traits": [
+    "Ninja"
+   ],
+   "keywords": [],
+   "text": "Inflige 2 dégâts à un Combattant adverse ciblé. Si cette carte est défaussée : inflige 3 dégâts à un Combattant adverse au hasard ; s'il n'y en a pas, inflige 2 dégâts au Leader adverse."
   },
   {
    "key": "pakkun",
@@ -5008,6 +5959,7 @@
    "atk": 1,
    "hp": 1,
    "art": true,
+   "external": false,
    "traits": [
     "Animal",
     "Ninja"
@@ -5024,6 +5976,7 @@
    "atk": 1,
    "hp": 1,
    "art": true,
+   "external": false,
    "traits": [
     "Démon"
    ],
@@ -5039,6 +5992,7 @@
    "atk": 1,
    "hp": 1,
    "art": true,
+   "external": false,
    "traits": [
     "Humain",
     "Démon"
@@ -5055,6 +6009,7 @@
    "atk": null,
    "hp": null,
    "art": true,
+   "external": false,
    "traits": [
     "Démon"
    ],
@@ -5070,6 +6025,7 @@
    "atk": 1,
    "hp": 1,
    "art": true,
+   "external": false,
    "traits": [
     "Démon"
    ],
@@ -5085,6 +6041,7 @@
    "atk": 1,
    "hp": 1,
    "art": true,
+   "external": false,
    "traits": [
     "Humain",
     "Scolaire",
@@ -5107,6 +6064,7 @@
    "atk": 1,
    "hp": 2,
    "art": true,
+   "external": false,
    "traits": [
     "Humain",
     "Ninja"
@@ -5123,6 +6081,7 @@
    "atk": 1,
    "hp": 2,
    "art": true,
+   "external": false,
    "traits": [
     "Humain",
     "Esper",
@@ -5147,6 +6106,7 @@
    "atk": null,
    "hp": null,
    "art": true,
+   "external": false,
    "traits": [
     "Dragon"
    ],
@@ -5162,6 +6122,7 @@
    "atk": 1,
    "hp": 2,
    "art": true,
+   "external": false,
    "traits": [
     "Humain",
     "Ninja",
@@ -5184,6 +6145,7 @@
    "atk": null,
    "hp": null,
    "art": true,
+   "external": false,
    "traits": [
     "Soin"
    ],
@@ -5199,6 +6161,7 @@
    "atk": 1,
    "hp": 3,
    "art": true,
+   "external": false,
    "traits": [
     "Humain",
     "Pirate"
@@ -5215,6 +6178,7 @@
    "atk": null,
    "hp": null,
    "art": true,
+   "external": false,
    "traits": [
     "Yorozuya",
     "Silver Soul"
@@ -5231,6 +6195,7 @@
    "atk": null,
    "hp": null,
    "art": true,
+   "external": false,
    "traits": [
     "Démon"
    ],
@@ -5246,6 +6211,7 @@
    "atk": null,
    "hp": null,
    "art": true,
+   "external": false,
    "traits": [
     "Spirituel"
    ],
@@ -5261,6 +6227,7 @@
    "atk": null,
    "hp": null,
    "art": true,
+   "external": false,
    "traits": [
     "Exorciste"
    ],
@@ -5276,6 +6243,7 @@
    "atk": null,
    "hp": null,
    "art": true,
+   "external": false,
    "traits": [
     "Assassin"
    ],
@@ -5291,6 +6259,7 @@
    "atk": null,
    "hp": null,
    "art": true,
+   "external": false,
    "traits": [],
    "keywords": [],
    "text": "Injouable si aucun Combattant adverse n'a Rush. Piochez 1 carte par Combattant adverse qui a Rush (3 au maximum), puis les Combattants adverses qui ont Rush perdent 3 ATK jusqu'à la fin du prochain tour adverse."
@@ -5304,6 +6273,7 @@
    "atk": 1,
    "hp": 3,
    "art": true,
+   "external": false,
    "traits": [
     "Humain",
     "Yorozuya",
@@ -5326,6 +6296,7 @@
    "atk": 2,
    "hp": 2,
    "art": true,
+   "external": false,
    "traits": [
     "Humain",
     "Ninja"
@@ -5342,6 +6313,7 @@
    "atk": 3,
    "hp": 1,
    "art": true,
+   "external": false,
    "traits": [
     "Monstre",
     "Dragon",
@@ -5359,6 +6331,7 @@
    "atk": 2,
    "hp": 2,
    "art": true,
+   "external": false,
    "traits": [
     "Saiyan",
     "Artiste Martial",
@@ -5383,6 +6356,7 @@
    "atk": 1,
    "hp": 3,
    "art": true,
+   "external": false,
    "traits": [
     "Alien",
     "Artiste Martial",
@@ -5401,6 +6375,7 @@
    "atk": 3,
    "hp": 1,
    "art": true,
+   "external": false,
    "traits": [
     "Humain",
     "Ninja"
@@ -5417,6 +6392,7 @@
    "atk": 1,
    "hp": 3,
    "art": true,
+   "external": false,
    "traits": [
     "Humain",
     "Scolaire"
@@ -5433,6 +6409,7 @@
    "atk": 2,
    "hp": 2,
    "art": true,
+   "external": false,
    "traits": [
     "Humain",
     "Yorozuya",
@@ -5450,6 +6427,7 @@
    "atk": 2,
    "hp": 2,
    "art": true,
+   "external": false,
    "traits": [
     "Humain",
     "Épéiste"
@@ -5471,6 +6449,7 @@
    "atk": null,
    "hp": null,
    "art": true,
+   "external": false,
    "traits": [
     "Super Guerrier"
    ],
@@ -5486,6 +6465,7 @@
    "atk": null,
    "hp": null,
    "art": true,
+   "external": false,
    "traits": [
     "Super Guerrier"
    ],
@@ -5501,6 +6481,7 @@
    "atk": 1,
    "hp": 2,
    "art": true,
+   "external": false,
    "traits": [
     "Humain",
     "Cuisine"
@@ -5517,6 +6498,7 @@
    "atk": null,
    "hp": null,
    "art": true,
+   "external": false,
    "traits": [
     "Ninja"
    ],
@@ -5532,6 +6514,7 @@
    "atk": null,
    "hp": null,
    "art": true,
+   "external": false,
    "traits": [
     "Sport"
    ],
@@ -5547,6 +6530,7 @@
    "atk": null,
    "hp": null,
    "art": true,
+   "external": false,
    "traits": [
     "Scolaire"
    ],
@@ -5562,6 +6546,7 @@
    "atk": null,
    "hp": null,
    "art": true,
+   "external": false,
    "traits": [
     "Super Guerrier"
    ],
@@ -5577,6 +6562,7 @@
    "atk": 1,
    "hp": 3,
    "art": true,
+   "external": false,
    "traits": [
     "Humain",
     "Pirate"
@@ -5593,6 +6579,7 @@
    "atk": null,
    "hp": null,
    "art": true,
+   "external": false,
    "traits": [
     "Assassin"
    ],
@@ -5608,6 +6595,7 @@
    "atk": null,
    "hp": null,
    "art": true,
+   "external": false,
    "traits": [
     "Ninja"
    ],
@@ -5623,6 +6611,7 @@
    "atk": null,
    "hp": null,
    "art": true,
+   "external": false,
    "traits": [
     "Dragon"
    ],
@@ -5638,6 +6627,7 @@
    "atk": 1,
    "hp": 3,
    "art": true,
+   "external": false,
    "traits": [
     "Dragon",
     "Humain",
@@ -5655,6 +6645,7 @@
    "atk": 1,
    "hp": 1,
    "art": true,
+   "external": false,
    "traits": [
     "Humain",
     "Mafia",
@@ -5679,6 +6670,7 @@
    "atk": null,
    "hp": null,
    "art": true,
+   "external": false,
    "traits": [
     "Super Guerrier"
    ],
@@ -5694,6 +6686,7 @@
    "atk": null,
    "hp": null,
    "art": true,
+   "external": false,
    "traits": [],
    "keywords": [],
    "text": "Injouable sans Combattant allié. Un Combattant allié ciblé gagne +3 ATK (définitivement) et votre Leader subit 2 dégâts."
@@ -5707,6 +6700,7 @@
    "atk": 2,
    "hp": 3,
    "art": true,
+   "external": false,
    "traits": [
     "Démon"
    ],
@@ -5727,6 +6721,7 @@
    "atk": 1,
    "hp": 3,
    "art": true,
+   "external": false,
    "traits": [
     "Humain",
     "Ninja"
@@ -5748,6 +6743,7 @@
    "atk": 1,
    "hp": 3,
    "art": true,
+   "external": false,
    "traits": [
     "Humain",
     "Épéiste",
@@ -5766,6 +6762,7 @@
    "atk": null,
    "hp": null,
    "art": true,
+   "external": false,
    "traits": [],
    "keywords": [],
    "text": "Compteur 3. Au début de chacun de vos tours : le coût d'une carte de votre main, au hasard, baisse de 1 (définitivement)."
@@ -5779,6 +6776,7 @@
    "atk": null,
    "hp": null,
    "art": true,
+   "external": false,
    "traits": [
     "Ninja"
    ],
@@ -5794,6 +6792,7 @@
    "atk": 1,
    "hp": 1,
    "art": true,
+   "external": false,
    "traits": [
     "Humain",
     "Scolaire"
@@ -5810,6 +6809,7 @@
    "atk": 1,
    "hp": 3,
    "art": true,
+   "external": false,
    "traits": [
     "Cyborg",
     "Silver Soul"
@@ -5826,6 +6826,7 @@
    "atk": 2,
    "hp": 3,
    "art": true,
+   "external": false,
    "traits": [
     "Humain",
     "Pirate",
@@ -5850,6 +6851,7 @@
    "atk": null,
    "hp": null,
    "art": true,
+   "external": false,
    "traits": [
     "Furyo"
    ],
@@ -5865,6 +6867,7 @@
    "atk": null,
    "hp": null,
    "art": true,
+   "external": false,
    "traits": [
     "Pirate"
    ],
@@ -5880,6 +6883,7 @@
    "atk": 1,
    "hp": 3,
    "art": true,
+   "external": false,
    "traits": [
     "Humain",
     "Scolaire"
@@ -5896,6 +6900,7 @@
    "atk": 2,
    "hp": 2,
    "art": true,
+   "external": false,
    "traits": [
     "Humain",
     "Scolaire",
@@ -5919,6 +6924,7 @@
    "atk": 1,
    "hp": 3,
    "art": true,
+   "external": false,
    "traits": [
     "Humain",
     "Yorozuya",
@@ -5936,6 +6942,7 @@
    "atk": null,
    "hp": null,
    "art": true,
+   "external": false,
    "traits": [
     "Pirate"
    ],
@@ -5951,6 +6958,7 @@
    "atk": 3,
    "hp": 2,
    "art": true,
+   "external": false,
    "traits": [
     "Alien",
     "Yato"
@@ -5964,6 +6972,20 @@
    "text": "Dernier Souffle : inflige 1 dégât au Leader adverse."
   },
   {
+   "key": "accalmie",
+   "name": "Accalmie",
+   "rarity": "rare",
+   "type": "Tactique",
+   "cost": 3,
+   "atk": null,
+   "hp": null,
+   "art": true,
+   "external": true,
+   "traits": [],
+   "keywords": [],
+   "text": "Compteur 2. Tant qu'elle est sur votre terrain, votre Leader ne subit aucun dégât."
+  },
+  {
    "key": "aki_hayakawa",
    "name": "Aki Hayakawa",
    "rarity": "rare",
@@ -5972,6 +6994,7 @@
    "atk": 3,
    "hp": 3,
    "art": true,
+   "external": false,
    "traits": [
     "Humain",
     "Démon"
@@ -5988,6 +7011,7 @@
    "atk": null,
    "hp": null,
    "art": true,
+   "external": false,
    "traits": [
     "Démon"
    ],
@@ -6003,6 +7027,7 @@
    "atk": 2,
    "hp": 3,
    "art": true,
+   "external": false,
    "traits": [
     "Humain"
    ],
@@ -6025,6 +7050,7 @@
    "atk": null,
    "hp": null,
    "art": true,
+   "external": false,
    "traits": [],
    "keywords": [],
    "text": "Injouable sans au moins 2 Combattants alliés sur votre terrain. Un Combattant allié ciblé gagne +2 ATK, puis un AUTRE Combattant allié ciblé gagne +2 PV (définitivement)."
@@ -6038,6 +7064,7 @@
    "atk": 2,
    "hp": 3,
    "art": true,
+   "external": false,
    "traits": [
     "Humain",
     "Scolaire",
@@ -6056,6 +7083,7 @@
    "atk": 3,
    "hp": 2,
    "art": true,
+   "external": false,
    "traits": [
     "Humain",
     "Scolaire",
@@ -6085,6 +7113,7 @@
    "atk": 3,
    "hp": 2,
    "art": true,
+   "external": false,
    "traits": [
     "Humain",
     "Scolaire",
@@ -6110,6 +7139,7 @@
    "atk": null,
    "hp": null,
    "art": true,
+   "external": false,
    "traits": [
     "Shinigami",
     "Gotei 13",
@@ -6127,6 +7157,7 @@
    "atk": null,
    "hp": null,
    "art": true,
+   "external": false,
    "traits": [
     "Shinigami",
     "Gotei 13",
@@ -6144,6 +7175,7 @@
    "atk": null,
    "hp": null,
    "art": true,
+   "external": false,
    "traits": [
     "Démon"
    ],
@@ -6159,6 +7191,7 @@
    "atk": null,
    "hp": null,
    "art": true,
+   "external": false,
    "traits": [
     "Esper"
    ],
@@ -6179,6 +7212,7 @@
    "atk": 2,
    "hp": 3,
    "art": true,
+   "external": false,
    "traits": [
     "Spirituel",
     "Mage"
@@ -6195,6 +7229,7 @@
    "atk": null,
    "hp": null,
    "art": true,
+   "external": false,
    "traits": [
     "Super Guerrier"
    ],
@@ -6210,6 +7245,7 @@
    "atk": null,
    "hp": null,
    "art": true,
+   "external": false,
    "traits": [
     "Yorozuya",
     "Silver Soul"
@@ -6231,6 +7267,7 @@
    "atk": null,
    "hp": null,
    "art": true,
+   "external": false,
    "traits": [
     "Ninja"
    ],
@@ -6246,6 +7283,7 @@
    "atk": 2,
    "hp": 3,
    "art": true,
+   "external": false,
    "traits": [
     "Humain",
     "Yorozuya",
@@ -6269,6 +7307,7 @@
    "atk": null,
    "hp": null,
    "art": true,
+   "external": false,
    "traits": [
     "Esper"
    ],
@@ -6284,6 +7323,7 @@
    "atk": null,
    "hp": null,
    "art": true,
+   "external": false,
    "traits": [
     "Assassin"
    ],
@@ -6299,6 +7339,7 @@
    "atk": 2,
    "hp": 4,
    "art": true,
+   "external": false,
    "traits": [
     "Dragon",
     "Monstre",
@@ -6316,6 +7357,7 @@
    "atk": 2,
    "hp": 3,
    "art": true,
+   "external": false,
    "traits": [
     "Démon",
     "Super Guerrier"
@@ -6332,6 +7374,7 @@
    "atk": null,
    "hp": null,
    "art": true,
+   "external": false,
    "traits": [],
    "keywords": [],
    "text": "Compteur 3. Tant qu'elle est en jeu, l'adversaire a 1 Nekketsu de moins à dépenser au début de chacun de ses tours (son Nekketsu max ne change pas). À 0 : piochez 2 cartes."
@@ -6345,6 +7388,7 @@
    "atk": null,
    "hp": null,
    "art": true,
+   "external": false,
    "traits": [],
    "keywords": [],
    "text": "Compteur 3. Tant qu'elle est en jeu, tous les Combattants des deux camps perdent Rempart."
@@ -6358,6 +7402,7 @@
    "atk": 2,
    "hp": 4,
    "art": true,
+   "external": false,
    "traits": [
     "Dragon",
     "Mage"
@@ -6374,6 +7419,7 @@
    "atk": 2,
    "hp": 3,
    "art": true,
+   "external": false,
    "traits": [
     "Humain",
     "Pirate",
@@ -6396,6 +7442,7 @@
    "atk": null,
    "hp": null,
    "art": true,
+   "external": false,
    "traits": [],
    "keywords": [],
    "text": "Donne Rush à un de vos Combattants ciblé jusqu'à la fin du tour."
@@ -6409,6 +7456,7 @@
    "atk": null,
    "hp": null,
    "art": true,
+   "external": false,
    "traits": [
     "Nen"
    ],
@@ -6424,6 +7472,7 @@
    "atk": null,
    "hp": null,
    "art": true,
+   "external": false,
    "traits": [
     "Démon"
    ],
@@ -6439,6 +7488,7 @@
    "atk": 4,
    "hp": 2,
    "art": true,
+   "external": false,
    "traits": [
     "Démon"
    ],
@@ -6459,6 +7509,7 @@
    "atk": 2,
    "hp": 2,
    "art": true,
+   "external": false,
    "traits": [
     "Démon",
     "Silver Soul"
@@ -6475,6 +7526,7 @@
    "atk": 1,
    "hp": 4,
    "art": true,
+   "external": false,
    "traits": [
     "Humain",
     "Sport"
@@ -6496,6 +7548,7 @@
    "atk": 2,
    "hp": 3,
    "art": true,
+   "external": false,
    "traits": [
     "Shinigami",
     "Gotei 13",
@@ -6526,6 +7579,7 @@
    "atk": 2,
    "hp": 3,
    "art": true,
+   "external": false,
    "traits": [
     "Monstre",
     "Jura Tempest"
@@ -6549,6 +7603,7 @@
    "atk": null,
    "hp": null,
    "art": true,
+   "external": false,
    "traits": [
     "Mage"
    ],
@@ -6564,6 +7619,7 @@
    "atk": null,
    "hp": null,
    "art": true,
+   "external": false,
    "traits": [
     "Furyo"
    ],
@@ -6579,6 +7635,7 @@
    "atk": 3,
    "hp": 3,
    "art": true,
+   "external": false,
    "traits": [
     "Humain",
     "Scolaire",
@@ -6596,6 +7653,7 @@
    "atk": 2,
    "hp": 3,
    "art": true,
+   "external": false,
    "traits": [
     "Démon"
    ],
@@ -6611,6 +7669,7 @@
    "atk": 2,
    "hp": 3,
    "art": true,
+   "external": false,
    "traits": [
     "Shinigami",
     "Épéiste",
@@ -6634,6 +7693,7 @@
    "atk": null,
    "hp": null,
    "art": true,
+   "external": false,
    "traits": [
     "Dragon"
    ],
@@ -6649,6 +7709,7 @@
    "atk": 2,
    "hp": 3,
    "art": true,
+   "external": false,
    "traits": [
     "Humain"
    ],
@@ -6671,6 +7732,7 @@
    "atk": 2,
    "hp": 3,
    "art": true,
+   "external": false,
    "traits": [
     "Humain",
     "Ninja"
@@ -6687,6 +7749,7 @@
    "atk": 2,
    "hp": 3,
    "art": true,
+   "external": false,
    "traits": [
     "Alien",
     "Artiste Martial",
@@ -6705,6 +7768,7 @@
    "atk": null,
    "hp": null,
    "art": true,
+   "external": false,
    "traits": [
     "Silver Soul"
    ],
@@ -6720,6 +7784,7 @@
    "atk": null,
    "hp": null,
    "art": true,
+   "external": false,
    "traits": [
     "Ninja"
    ],
@@ -6735,6 +7800,7 @@
    "atk": 4,
    "hp": 2,
    "art": true,
+   "external": false,
    "traits": [
     "Humain",
     "Scolaire",
@@ -6752,6 +7818,7 @@
    "atk": 2,
    "hp": 3,
    "art": true,
+   "external": false,
    "traits": [
     "Humain",
     "Épéiste",
@@ -6769,6 +7836,7 @@
    "atk": 2,
    "hp": 3,
    "art": true,
+   "external": false,
    "traits": [
     "Humain",
     "Scolaire",
@@ -6792,6 +7860,7 @@
    "atk": 3,
    "hp": 2,
    "art": true,
+   "external": false,
    "traits": [
     "Humain",
     "Épéiste",
@@ -6810,6 +7879,7 @@
    "atk": null,
    "hp": null,
    "art": true,
+   "external": false,
    "traits": [],
    "keywords": [],
    "text": "Injouable sans Combattant allié de coût 1. Tous vos Combattants de coût 1 gagnent Rush et Frappe Critique jusqu'à la fin du tour."
@@ -6823,6 +7893,7 @@
    "atk": null,
    "hp": null,
    "art": true,
+   "external": false,
    "traits": [
     "Ninja"
    ],
@@ -6838,6 +7909,7 @@
    "atk": null,
    "hp": null,
    "art": true,
+   "external": false,
    "traits": [
     "Assassin"
    ],
@@ -6853,6 +7925,7 @@
    "atk": null,
    "hp": null,
    "art": true,
+   "external": false,
    "traits": [
     "Furyo"
    ],
@@ -6868,6 +7941,7 @@
    "atk": 2,
    "hp": 3,
    "art": true,
+   "external": false,
    "traits": [
     "Humain",
     "Mage"
@@ -6884,6 +7958,7 @@
    "atk": 2,
    "hp": 3,
    "art": true,
+   "external": false,
    "traits": [
     "Humain",
     "Nen",
@@ -6901,6 +7976,7 @@
    "atk": 3,
    "hp": 2,
    "art": true,
+   "external": false,
    "traits": [
     "Humain",
     "Scolaire",
@@ -6933,6 +8009,7 @@
    "atk": null,
    "hp": null,
    "art": true,
+   "external": false,
    "traits": [
     "Ninja"
    ],
@@ -6948,6 +8025,7 @@
    "atk": 2,
    "hp": 3,
    "art": true,
+   "external": false,
    "traits": [
     "Humain",
     "Scolaire",
@@ -6966,6 +8044,7 @@
    "atk": 2,
    "hp": 3,
    "art": true,
+   "external": false,
    "traits": [
     "Shinigami",
     "Gotei 13",
@@ -6983,6 +8062,7 @@
    "atk": 2,
    "hp": 4,
    "art": true,
+   "external": false,
    "traits": [
     "Démon"
    ],
@@ -6998,6 +8078,7 @@
    "atk": null,
    "hp": null,
    "art": true,
+   "external": false,
    "traits": [
     "Dragon"
    ],
@@ -7013,6 +8094,7 @@
    "atk": 2,
    "hp": 4,
    "art": true,
+   "external": false,
    "traits": [
     "Humain",
     "Artiste Martial",
@@ -7030,6 +8112,7 @@
    "atk": 2,
    "hp": 2,
    "art": true,
+   "external": false,
    "traits": [
     "Humain",
     "Scolaire",
@@ -7047,6 +8130,7 @@
    "atk": null,
    "hp": null,
    "art": true,
+   "external": false,
    "traits": [
     "Saiyan"
    ],
@@ -7062,6 +8146,7 @@
    "atk": null,
    "hp": null,
    "art": true,
+   "external": false,
    "traits": [
     "Shinigami",
     "Spirituel"
@@ -7078,6 +8163,7 @@
    "atk": null,
    "hp": null,
    "art": true,
+   "external": false,
    "traits": [
     "Ninja"
    ],
@@ -7093,6 +8179,7 @@
    "atk": 2,
    "hp": 3,
    "art": true,
+   "external": false,
    "traits": [
     "Humain",
     "Scolaire",
@@ -7110,6 +8197,7 @@
    "atk": 1,
    "hp": 4,
    "art": true,
+   "external": false,
    "traits": [
     "Humain",
     "Silver Soul"
@@ -7131,6 +8219,7 @@
    "atk": null,
    "hp": null,
    "art": true,
+   "external": false,
    "traits": [
     "Malédiction"
    ],
@@ -7146,6 +8235,7 @@
    "atk": null,
    "hp": null,
    "art": true,
+   "external": false,
    "traits": [
     "Silver Soul"
    ],
@@ -7161,6 +8251,7 @@
    "atk": null,
    "hp": null,
    "art": true,
+   "external": false,
    "traits": [
     "Scolaire"
    ],
@@ -7176,6 +8267,7 @@
    "atk": null,
    "hp": null,
    "art": true,
+   "external": false,
    "traits": [
     "Saiyan"
    ],
@@ -7191,6 +8283,7 @@
    "atk": 3,
    "hp": 2,
    "art": true,
+   "external": false,
    "traits": [
     "Démon"
    ],
@@ -7211,6 +8304,7 @@
    "atk": null,
    "hp": null,
    "art": true,
+   "external": false,
    "traits": [
     "Esper"
    ],
@@ -7231,6 +8325,7 @@
    "atk": null,
    "hp": null,
    "art": true,
+   "external": false,
    "traits": [
     "Silver Soul"
    ],
@@ -7246,6 +8341,7 @@
    "atk": null,
    "hp": null,
    "art": true,
+   "external": false,
    "traits": [
     "Dragon"
    ],
@@ -7261,6 +8357,7 @@
    "atk": 2,
    "hp": 4,
    "art": true,
+   "external": false,
    "traits": [
     "Démon",
     "Mage"
@@ -7282,6 +8379,7 @@
    "atk": 3,
    "hp": 2,
    "art": true,
+   "external": false,
    "traits": [
     "Shinigami",
     "Épéiste",
@@ -7300,6 +8398,7 @@
    "atk": null,
    "hp": null,
    "art": true,
+   "external": false,
    "traits": [
     "Esper"
    ],
@@ -7315,6 +8414,7 @@
    "atk": 3,
    "hp": 2,
    "art": true,
+   "external": false,
    "traits": [
     "Humain",
     "Pirate",
@@ -7345,6 +8445,7 @@
    "atk": 2,
    "hp": 3,
    "art": true,
+   "external": false,
    "traits": [
     "Humain",
     "Pirate",
@@ -7369,6 +8470,7 @@
    "atk": 3,
    "hp": 2,
    "art": true,
+   "external": false,
    "traits": [
     "Humain",
     "Ninja",
@@ -7398,6 +8500,7 @@
    "atk": 2,
    "hp": 3,
    "art": true,
+   "external": false,
    "traits": [
     "Humain",
     "Épéiste",
@@ -7427,6 +8530,7 @@
    "atk": 3,
    "hp": 2,
    "art": true,
+   "external": false,
    "traits": [
     "Humain",
     "Scolaire",
@@ -7449,6 +8553,7 @@
    "atk": 1,
    "hp": 3,
    "art": true,
+   "external": false,
    "traits": [
     "Humain",
     "Ninja",
@@ -7473,6 +8578,7 @@
    "atk": 3,
    "hp": 1,
    "art": true,
+   "external": false,
    "traits": [
     "Humain",
     "Pirate",
@@ -7490,6 +8596,7 @@
    "atk": null,
    "hp": null,
    "art": true,
+   "external": false,
    "traits": [
     "Shinigami",
     "Spirituel"
@@ -7506,6 +8613,7 @@
    "atk": 2,
    "hp": 4,
    "art": true,
+   "external": false,
    "traits": [
     "Humain",
     "Esper",
@@ -7513,6 +8621,48 @@
    ],
    "keywords": [],
    "text": "À l'arrivée : un Combattant adverse ciblé perd 2 ATK jusqu'à la fin du prochain tour adverse."
+  },
+  {
+   "key": "serveuse_audacieuse",
+   "name": "Serveuse Audacieuse",
+   "rarity": "rare",
+   "type": "Combattant",
+   "cost": 3,
+   "atk": 2,
+   "hp": 2,
+   "art": true,
+   "external": true,
+   "traits": [
+    "Humain"
+   ],
+   "keywords": [
+    {
+     "name": "Rush",
+     "hint": "peut attaquer un Combattant dès l'arrivée, pas le Leader"
+    }
+   ],
+   "text": "Rush. Dernier Souffle : soigne votre Leader de 2 PV."
+  },
+  {
+   "key": "serveuse_de_sake",
+   "name": "Serveuse de Sake",
+   "rarity": "rare",
+   "type": "Combattant",
+   "cost": 3,
+   "atk": 2,
+   "hp": 2,
+   "art": true,
+   "external": true,
+   "traits": [
+    "Humain"
+   ],
+   "keywords": [
+    {
+     "name": "Rush",
+     "hint": "peut attaquer un Combattant dès l'arrivée, pas le Leader"
+    }
+   ],
+   "text": "Rush. Dernier Souffle : inflige -1 ATK à tous les Combattants adverses."
   },
   {
    "key": "shin_asakura",
@@ -7523,6 +8673,7 @@
    "atk": 2,
    "hp": 2,
    "art": true,
+   "external": false,
    "traits": [
     "Humain",
     "Assassin"
@@ -7546,6 +8697,7 @@
    "atk": 3,
    "hp": 2,
    "art": true,
+   "external": false,
    "traits": [
     "Monstre",
     "Jura Tempest",
@@ -7556,6 +8708,23 @@
    "text": "À l'arrivée : ajoute une Cuisine Catastrophique de votre deck à votre main."
   },
   {
+   "key": "soul_candy",
+   "name": "Soul Candy",
+   "rarity": "rare",
+   "type": "Action",
+   "cost": 3,
+   "atk": null,
+   "hp": null,
+   "art": true,
+   "external": true,
+   "traits": [
+    "Shinigami",
+    "Spirituel"
+   ],
+   "keywords": [],
+   "text": "Donne +1 PV à tous vos Combattants Spirituels. Injouable si vous n'avez aucun Combattant Spirituel sur le plateau."
+  },
+  {
    "key": "style_a_deux_lames",
    "name": "Style à Deux Lames",
    "rarity": "rare",
@@ -7564,6 +8733,7 @@
    "atk": null,
    "hp": null,
    "art": true,
+   "external": false,
    "traits": [
     "Épéiste"
    ],
@@ -7579,6 +8749,7 @@
    "atk": null,
    "hp": null,
    "art": true,
+   "external": false,
    "traits": [
     "Mage"
    ],
@@ -7594,6 +8765,7 @@
    "atk": 2,
    "hp": 4,
    "art": true,
+   "external": false,
    "traits": [
     "Humain",
     "Artiste Martial",
@@ -7624,6 +8796,7 @@
    "atk": 1,
    "hp": 4,
    "art": true,
+   "external": false,
    "traits": [
     "Démon"
    ],
@@ -7639,6 +8812,7 @@
    "atk": 3,
    "hp": 2,
    "art": true,
+   "external": false,
    "traits": [
     "Humain",
     "Artiste Martial",
@@ -7656,6 +8830,7 @@
    "atk": 3,
    "hp": 1,
    "art": true,
+   "external": false,
    "traits": [
     "Animal",
     "Cuisine"
@@ -7672,6 +8847,7 @@
    "atk": 2,
    "hp": 3,
    "art": true,
+   "external": false,
    "traits": [
     "Humain",
     "Scolaire",
@@ -7690,6 +8866,7 @@
    "atk": 2,
    "hp": 3,
    "art": true,
+   "external": false,
    "traits": [
     "Humain",
     "Silver Soul"
@@ -7706,6 +8883,7 @@
    "atk": 2,
    "hp": 3,
    "art": true,
+   "external": false,
    "traits": [
     "Humain",
     "Scolaire",
@@ -7728,6 +8906,7 @@
    "atk": null,
    "hp": null,
    "art": true,
+   "external": false,
    "traits": [
     "Pirate"
    ],
@@ -7743,6 +8922,7 @@
    "atk": 2,
    "hp": 4,
    "art": true,
+   "external": false,
    "traits": [
     "Humain",
     "Scolaire"
@@ -7764,6 +8944,7 @@
    "atk": null,
    "hp": null,
    "art": true,
+   "external": false,
    "traits": [
     "Furyo"
    ],
@@ -7779,6 +8960,7 @@
    "atk": null,
    "hp": null,
    "art": true,
+   "external": false,
    "traits": [
     "Sport"
    ],
@@ -7794,6 +8976,7 @@
    "atk": null,
    "hp": null,
    "art": true,
+   "external": false,
    "traits": [
     "Ninja"
    ],
@@ -7809,6 +8992,7 @@
    "atk": 3,
    "hp": 2,
    "art": true,
+   "external": false,
    "traits": [
     "Humain",
     "Scolaire",
@@ -7833,6 +9017,7 @@
    "atk": null,
    "hp": null,
    "art": true,
+   "external": false,
    "traits": [
     "Mage"
    ],
@@ -7848,6 +9033,7 @@
    "atk": 3,
    "hp": 3,
    "art": true,
+   "external": false,
    "traits": [
     "Humain",
     "Scolaire",
@@ -7871,6 +9057,7 @@
    "atk": 4,
    "hp": 4,
    "art": true,
+   "external": false,
    "traits": [
     "Humain",
     "Scolaire",
@@ -7900,6 +9087,7 @@
    "atk": null,
    "hp": null,
    "art": true,
+   "external": false,
    "traits": [
     "Furyo"
    ],
@@ -7915,6 +9103,7 @@
    "atk": null,
    "hp": null,
    "art": true,
+   "external": false,
    "traits": [
     "Furyo"
    ],
@@ -7930,6 +9119,7 @@
    "atk": 4,
    "hp": 3,
    "art": true,
+   "external": false,
    "traits": [
     "Alien",
     "Artiste Martial",
@@ -7953,6 +9143,7 @@
    "atk": 3,
    "hp": 4,
    "art": true,
+   "external": false,
    "traits": [
     "Humain",
     "Monstre"
@@ -7969,6 +9160,7 @@
    "atk": 3,
    "hp": 4,
    "art": true,
+   "external": false,
    "traits": [
     "Cyborg",
     "Super Guerrier",
@@ -7986,6 +9178,7 @@
    "atk": null,
    "hp": null,
    "art": true,
+   "external": false,
    "traits": [
     "Sport"
    ],
@@ -8001,6 +9194,7 @@
    "atk": null,
    "hp": null,
    "art": true,
+   "external": false,
    "traits": [
     "Pirate"
    ],
@@ -8016,6 +9210,7 @@
    "atk": null,
    "hp": null,
    "art": true,
+   "external": false,
    "traits": [],
    "keywords": [],
    "text": "Donne +1 ATK à tous vos Combattants jusqu'à la fin du tour."
@@ -8029,6 +9224,7 @@
    "atk": 3,
    "hp": 5,
    "art": true,
+   "external": false,
    "traits": [
     "Humain",
     "Pirate"
@@ -8050,6 +9246,7 @@
    "atk": null,
    "hp": null,
    "art": true,
+   "external": false,
    "traits": [
     "Shinigami",
     "Spirituel"
@@ -8066,6 +9263,7 @@
    "atk": null,
    "hp": null,
    "art": true,
+   "external": false,
    "traits": [
     "Sport"
    ],
@@ -8081,6 +9279,7 @@
    "atk": null,
    "hp": null,
    "art": true,
+   "external": false,
    "traits": [
     "Silver Soul"
    ],
@@ -8096,6 +9295,7 @@
    "atk": null,
    "hp": null,
    "art": true,
+   "external": false,
    "traits": [
     "Exorciste"
    ],
@@ -8111,6 +9311,7 @@
    "atk": null,
    "hp": null,
    "art": true,
+   "external": false,
    "traits": [
     "Ninja"
    ],
@@ -8126,6 +9327,7 @@
    "atk": 3,
    "hp": 3,
    "art": true,
+   "external": false,
    "traits": [
     "Humain",
     "Héros",
@@ -8144,6 +9346,7 @@
    "atk": 2,
    "hp": 4,
    "art": true,
+   "external": false,
    "traits": [
     "Humain",
     "Mage",
@@ -8177,6 +9380,7 @@
    "atk": 3,
    "hp": 3,
    "art": true,
+   "external": false,
    "traits": [
     "Humain",
     "Nen"
@@ -8193,6 +9397,7 @@
    "atk": null,
    "hp": null,
    "art": true,
+   "external": false,
    "traits": [
     "Pirate"
    ],
@@ -8208,12 +9413,29 @@
    "atk": 3,
    "hp": 3,
    "art": true,
+   "external": false,
    "traits": [
     "Humain",
     "Mage"
    ],
    "keywords": [],
    "text": "À l'arrivée : un Combattant adverse ciblé perd 2 ATK définitivement."
+  },
+  {
+   "key": "grosse_viande",
+   "name": "Grosse Viande",
+   "rarity": "rare",
+   "type": "Tactique",
+   "cost": 4,
+   "atk": null,
+   "hp": null,
+   "art": true,
+   "external": true,
+   "traits": [
+    "Cuisine"
+   ],
+   "keywords": [],
+   "text": "Compteur 4. Un seul exemplaire sur votre terrain. Guet : chaque Combattant qui apparaît de votre côté gagne +0/+1 et le compteur baisse de 1 ; si ses PV sont alors de 5 ou plus, il gagne Rempart. À l'expiration : piochez 3 cartes."
   },
   {
    "key": "iaido",
@@ -8224,6 +9446,7 @@
    "atk": null,
    "hp": null,
    "art": true,
+   "external": false,
    "traits": [
     "Épéiste"
    ],
@@ -8239,6 +9462,7 @@
    "atk": 3,
    "hp": 4,
    "art": true,
+   "external": false,
    "traits": [
     "Humain",
     "Nen",
@@ -8256,6 +9480,7 @@
    "atk": null,
    "hp": null,
    "art": true,
+   "external": false,
    "traits": [
     "Démon"
    ],
@@ -8271,6 +9496,7 @@
    "atk": 3,
    "hp": 5,
    "art": true,
+   "external": false,
    "traits": [
     "Pirate",
     "Artiste Martial"
@@ -8299,6 +9525,7 @@
    "atk": 3,
    "hp": 3,
    "art": true,
+   "external": false,
    "traits": [
     "Humain",
     "Yorozuya",
@@ -8322,6 +9549,7 @@
    "atk": 4,
    "hp": 4,
    "art": true,
+   "external": false,
    "traits": [
     "Humain",
     "Scolaire",
@@ -8344,6 +9572,7 @@
    "atk": 3,
    "hp": 5,
    "art": true,
+   "external": false,
    "traits": [
     "Humain",
     "Nen"
@@ -8360,6 +9589,7 @@
    "atk": 4,
    "hp": 3,
    "art": true,
+   "external": false,
    "traits": [
     "Humain",
     "Scolaire",
@@ -8377,6 +9607,7 @@
    "atk": null,
    "hp": null,
    "art": true,
+   "external": false,
    "traits": [
     "Super Guerrier"
    ],
@@ -8392,6 +9623,7 @@
    "atk": null,
    "hp": null,
    "art": true,
+   "external": false,
    "traits": [
     "Super Guerrier"
    ],
@@ -8407,6 +9639,7 @@
    "atk": 3,
    "hp": 4,
    "art": true,
+   "external": false,
    "traits": [
     "Humain",
     "Scolaire",
@@ -8424,6 +9657,7 @@
    "atk": 3,
    "hp": 3,
    "art": true,
+   "external": false,
    "traits": [
     "Humain",
     "Exorciste"
@@ -8440,6 +9674,7 @@
    "atk": 4,
    "hp": 3,
    "art": true,
+   "external": false,
    "traits": [
     "Humain",
     "Scolaire"
@@ -8463,6 +9698,7 @@
    "atk": 3,
    "hp": 2,
    "art": true,
+   "external": false,
    "traits": [
     "Humain",
     "Scolaire",
@@ -8480,6 +9716,7 @@
    "atk": 3,
    "hp": 3,
    "art": true,
+   "external": false,
    "traits": [
     "Yato",
     "Alien",
@@ -8503,6 +9740,7 @@
    "atk": 4,
    "hp": 4,
    "art": true,
+   "external": false,
    "traits": [
     "Humain",
     "Exorciste"
@@ -8524,6 +9762,7 @@
    "atk": 3,
    "hp": 3,
    "art": true,
+   "external": false,
    "traits": [
     "Humain",
     "Mage",
@@ -8548,6 +9787,7 @@
    "atk": 3,
    "hp": 2,
    "art": true,
+   "external": false,
    "traits": [
     "Animal",
     "Dragon"
@@ -8571,6 +9811,7 @@
    "atk": null,
    "hp": null,
    "art": true,
+   "external": false,
    "traits": [
     "Yorozuya",
     "Silver Soul"
@@ -8587,6 +9828,7 @@
    "atk": 3,
    "hp": 3,
    "art": true,
+   "external": false,
    "traits": [
     "Animal",
     "Monstre",
@@ -8609,6 +9851,7 @@
    "atk": null,
    "hp": null,
    "art": true,
+   "external": false,
    "traits": [
     "Scolaire",
     "Furyo"
@@ -8625,6 +9868,7 @@
    "atk": null,
    "hp": null,
    "art": true,
+   "external": false,
    "traits": [],
    "keywords": [],
    "text": "Défaussez un Combattant de coût 8 ou plus de votre main et regagnez jusqu'à 2 Points Zenkai."
@@ -8638,6 +9882,7 @@
    "atk": null,
    "hp": null,
    "art": true,
+   "external": false,
    "traits": [
     "Démon"
    ],
@@ -8653,6 +9898,7 @@
    "atk": 2,
    "hp": 3,
    "art": true,
+   "external": false,
    "traits": [
     "Scolaire",
     "Shinigami",
@@ -8670,6 +9916,7 @@
    "atk": 3,
    "hp": 4,
    "art": true,
+   "external": false,
    "traits": [
     "Humain",
     "Esper",
@@ -8692,6 +9939,7 @@
    "atk": null,
    "hp": null,
    "art": true,
+   "external": false,
    "traits": [
     "Pirate"
    ],
@@ -8707,6 +9955,7 @@
    "atk": null,
    "hp": null,
    "art": true,
+   "external": false,
    "traits": [
     "Furyo"
    ],
@@ -8722,6 +9971,7 @@
    "atk": 2,
    "hp": 2,
    "art": true,
+   "external": false,
    "traits": [
     "Shinigami",
     "Gotei 13",
@@ -8747,6 +9997,7 @@
    "atk": null,
    "hp": null,
    "art": true,
+   "external": false,
    "traits": [
     "Dragon"
    ],
@@ -8762,6 +10013,7 @@
    "atk": 4,
    "hp": 3,
    "art": true,
+   "external": false,
    "traits": [
     "Humain",
     "Scolaire",
@@ -8779,6 +10031,7 @@
    "atk": 3,
    "hp": 3,
    "art": true,
+   "external": false,
    "traits": [
     "Humain",
     "Scolaire",
@@ -8793,6 +10046,36 @@
    "text": "Dernier Souffle : ajoute Tigre Affamé à votre main depuis l'extérieur du deck."
   },
   {
+   "key": "thon_elephant",
+   "name": "Thon Éléphant",
+   "rarity": "rare",
+   "type": "Action",
+   "cost": 4,
+   "atk": null,
+   "hp": null,
+   "art": true,
+   "external": true,
+   "traits": [
+    "Cuisine"
+   ],
+   "keywords": [],
+   "text": "Donne +1/+2 à tous vos Combattants et soigne 4 PV à votre Leader. Piochez 1 carte."
+  },
+  {
+   "key": "tigre_affame",
+   "name": "Tigre Affamé",
+   "rarity": "rare",
+   "type": "Action",
+   "cost": 4,
+   "atk": null,
+   "hp": null,
+   "art": true,
+   "external": true,
+   "traits": [],
+   "keywords": [],
+   "text": "Invoque 2 Petite Frappe (0/1) sur le plateau ADVERSE."
+  },
+  {
    "key": "toshiro_hijikata",
    "name": "Toshiro Hijikata",
    "rarity": "rare",
@@ -8801,6 +10084,7 @@
    "atk": 3,
    "hp": 3,
    "art": true,
+   "external": false,
    "traits": [
     "Humain",
     "Épéiste",
@@ -8819,6 +10103,7 @@
    "atk": 3,
    "hp": 1,
    "art": true,
+   "external": false,
    "traits": [
     "Humain",
     "Mafia",
@@ -8848,6 +10133,7 @@
    "atk": 3,
    "hp": 3,
    "art": true,
+   "external": false,
    "traits": [
     "Humain",
     "Assassin"
@@ -8864,6 +10150,7 @@
    "atk": 3,
    "hp": 2,
    "art": true,
+   "external": false,
    "traits": [
     "Humain",
     "Scolaire",
@@ -8893,6 +10180,7 @@
    "atk": 3,
    "hp": 3,
    "art": true,
+   "external": false,
    "traits": [
     "Humain",
     "Scolaire"
@@ -8909,6 +10197,7 @@
    "atk": 3,
    "hp": 4,
    "art": true,
+   "external": false,
    "traits": [
     "Dragon",
     "Monstre"
@@ -8930,6 +10219,7 @@
    "atk": 2,
    "hp": 5,
    "art": true,
+   "external": false,
    "traits": [
     "Humain",
     "Nen"
@@ -8953,6 +10243,7 @@
    "atk": 6,
    "hp": 5,
    "art": true,
+   "external": false,
    "traits": [
     "Dragon"
    ],
@@ -8968,6 +10259,7 @@
    "atk": null,
    "hp": null,
    "art": true,
+   "external": false,
    "traits": [
     "Dragon",
     "Mage"
@@ -8984,6 +10276,7 @@
    "atk": null,
    "hp": null,
    "art": true,
+   "external": false,
    "traits": [
     "Shinigami",
     "Gotei 13",
@@ -9001,6 +10294,7 @@
    "atk": null,
    "hp": null,
    "art": true,
+   "external": false,
    "traits": [
     "Shinigami",
     "Gotei 13",
@@ -9018,6 +10312,7 @@
    "atk": null,
    "hp": null,
    "art": true,
+   "external": false,
    "traits": [
     "Saiyan"
    ],
@@ -9033,6 +10328,7 @@
    "atk": 2,
    "hp": 6,
    "art": true,
+   "external": false,
    "traits": [
     "Humain",
     "Shinsengumi",
@@ -9055,6 +10351,7 @@
    "atk": null,
    "hp": null,
    "art": true,
+   "external": false,
    "traits": [],
    "keywords": [],
    "text": "Inflige 1 dégât à tous les Combattants adverses."
@@ -9068,6 +10365,7 @@
    "atk": 4,
    "hp": 3,
    "art": true,
+   "external": false,
    "traits": [
     "Humain",
     "Héros",
@@ -9092,6 +10390,7 @@
    "atk": 4,
    "hp": 6,
    "art": true,
+   "external": false,
    "traits": [
     "Shinigami",
     "Gotei 13",
@@ -9122,6 +10421,7 @@
    "atk": null,
    "hp": null,
    "art": true,
+   "external": false,
    "traits": [
     "Sport"
    ],
@@ -9137,6 +10437,7 @@
    "atk": 4,
    "hp": 4,
    "art": true,
+   "external": false,
    "traits": [
     "Nen",
     "Fourmi Chimère"
@@ -9158,6 +10459,7 @@
    "atk": 4,
    "hp": 2,
    "art": true,
+   "external": false,
    "traits": [
     "Monstre",
     "Ninja",
@@ -9184,6 +10486,7 @@
    "atk": null,
    "hp": null,
    "art": true,
+   "external": false,
    "traits": [],
    "keywords": [],
    "text": "Rend +3 PV à votre Leader et piochez 2 cartes."
@@ -9197,6 +10500,7 @@
    "atk": null,
    "hp": null,
    "art": true,
+   "external": false,
    "traits": [
     "Saiyan"
    ],
@@ -9212,6 +10516,7 @@
    "atk": null,
    "hp": null,
    "art": true,
+   "external": false,
    "traits": [
     "Shinigami",
     "Spirituel"
@@ -9228,6 +10533,7 @@
    "atk": null,
    "hp": null,
    "art": true,
+   "external": false,
    "traits": [],
    "keywords": [],
    "text": "Défaussez une carte de votre main, puis regagnez 1 Point Zenkai. Jouable seulement si vous pouvez défausser une carte ET que votre Zenkai n'est pas au maximum."
@@ -9241,6 +10547,7 @@
    "atk": 1,
    "hp": 5,
    "art": true,
+   "external": false,
    "traits": [
     "Humain",
     "Scolaire",
@@ -9258,6 +10565,7 @@
    "atk": 7,
    "hp": 6,
    "art": true,
+   "external": false,
    "traits": [
     "Nen",
     "Fourmi Chimère"
@@ -9279,6 +10587,7 @@
    "atk": null,
    "hp": null,
    "art": true,
+   "external": false,
    "traits": [
     "Super Guerrier"
    ],
@@ -9294,6 +10603,7 @@
    "atk": 6,
    "hp": 4,
    "art": true,
+   "external": false,
    "traits": [
     "Animal",
     "Cuisine"
@@ -9311,6 +10621,127 @@
    "text": "Rush, Rempart. Son coût baisse de 1 pour chaque carte de Trait Cuisine sur votre terrain."
   },
   {
+   "key": "bombe_de_katsura",
+   "name": "Bombe de Katsura",
+   "rarity": "common",
+   "type": "Tactique",
+   "cost": 0,
+   "atk": null,
+   "hp": null,
+   "art": true,
+   "external": true,
+   "traits": [],
+   "keywords": [],
+   "text": "Compteur 1 (il ne baisse que par son effet). Chaque fois qu'un Combattant apparaît sur votre terrain : inflige 2 dégâts à l'un de vos Combattants au hasard et 1 dégât à votre Leader, puis le Compteur tombe à 0 : la bombe disparaît."
+  },
+  {
+   "key": "chien_divin",
+   "name": "Chien Divin",
+   "rarity": "common",
+   "type": "Combattant",
+   "cost": 0,
+   "atk": 2,
+   "hp": 1,
+   "art": true,
+   "external": true,
+   "traits": [
+    "Exorciste"
+   ],
+   "keywords": [
+    {
+     "name": "Rush",
+     "hint": "peut attaquer un Combattant dès l'arrivée, pas le Leader"
+    }
+   ],
+   "text": ""
+  },
+  {
+   "key": "nikola",
+   "name": "Nikola",
+   "rarity": "common",
+   "type": "Combattant",
+   "cost": 0,
+   "atk": 1,
+   "hp": 1,
+   "art": true,
+   "external": true,
+   "traits": [
+    "Mage"
+   ],
+   "keywords": [],
+   "text": "Dernier Souffle : piochez une carte."
+  },
+  {
+   "key": "pandemonium",
+   "name": "Pandémonium",
+   "rarity": "common",
+   "type": "Combattant",
+   "cost": 0,
+   "atk": 1,
+   "hp": 1,
+   "art": true,
+   "external": true,
+   "traits": [],
+   "keywords": [],
+   "text": "Dernier Souffle : inflige 1 dégât à son contrôleur, puis augmente de 1 le coût d'une carte au hasard de sa main (10 au maximum)."
+  },
+  {
+   "key": "petite_frappe",
+   "name": "Petite Frappe",
+   "rarity": "common",
+   "type": "Combattant",
+   "cost": 0,
+   "atk": 0,
+   "hp": 1,
+   "art": true,
+   "external": true,
+   "traits": [
+    "Humain",
+    "Furyo"
+   ],
+   "keywords": [],
+   "text": "Dernier Souffle : inflige 2 dégâts au Leader qui la contrôle."
+  },
+  {
+   "key": "subaru_retour",
+   "name": "Subaru — Retour",
+   "rarity": "common",
+   "type": "Combattant",
+   "cost": 0,
+   "atk": 1,
+   "hp": 1,
+   "art": true,
+   "external": true,
+   "traits": [
+    "Humain",
+    "Temporel"
+   ],
+   "keywords": [],
+   "text": ""
+  },
+  {
+   "key": "ui_ui",
+   "name": "Ui Ui",
+   "rarity": "common",
+   "type": "Combattant",
+   "cost": 0,
+   "atk": 1,
+   "hp": 1,
+   "art": true,
+   "external": true,
+   "traits": [
+    "Humain",
+    "Exorciste"
+   ],
+   "keywords": [
+    {
+     "name": "Rempart",
+     "hint": "l'adversaire est obligé de l'attaquer"
+    }
+   ],
+   "text": ""
+  },
+  {
    "key": "akihiko_nirei",
    "name": "Akihiko Nirei",
    "rarity": "common",
@@ -9319,6 +10750,7 @@
    "atk": 1,
    "hp": 2,
    "art": true,
+   "external": false,
    "traits": [
     "Humain",
     "Scolaire",
@@ -9336,6 +10768,7 @@
    "atk": null,
    "hp": null,
    "art": true,
+   "external": false,
    "traits": [
     "Sport"
    ],
@@ -9351,6 +10784,7 @@
    "atk": null,
    "hp": null,
    "art": true,
+   "external": false,
    "traits": [
     "Esper"
    ],
@@ -9366,6 +10800,7 @@
    "atk": 1,
    "hp": 2,
    "art": true,
+   "external": false,
    "traits": [
     "Humain",
     "Artiste Martial",
@@ -9383,6 +10818,7 @@
    "atk": null,
    "hp": null,
    "art": true,
+   "external": false,
    "traits": [
     "Super Guerrier"
    ],
@@ -9398,6 +10834,7 @@
    "atk": null,
    "hp": null,
    "art": true,
+   "external": false,
    "traits": [
     "Shinigami",
     "Spirituel"
@@ -9414,6 +10851,7 @@
    "atk": 1,
    "hp": 1,
    "art": true,
+   "external": false,
    "traits": [
     "Humain",
     "Esper",
@@ -9436,6 +10874,7 @@
    "atk": null,
    "hp": null,
    "art": true,
+   "external": false,
    "traits": [],
    "keywords": [],
    "text": "Donne +1 ATK (jusqu'à la fin du tour) à un de vos Combattants ciblé, puis piochez 1 carte."
@@ -9449,6 +10888,7 @@
    "atk": 1,
    "hp": 1,
    "art": true,
+   "external": false,
    "traits": [
     "Saiyan"
    ],
@@ -9464,6 +10904,7 @@
    "atk": 1,
    "hp": 1,
    "art": true,
+   "external": false,
    "traits": [
     "Démon"
    ],
@@ -9479,6 +10920,7 @@
    "atk": 1,
    "hp": 2,
    "art": true,
+   "external": false,
    "traits": [
     "Monstre"
    ],
@@ -9494,6 +10936,7 @@
    "atk": 1,
    "hp": 2,
    "art": true,
+   "external": false,
    "traits": [
     "Démon"
    ],
@@ -9514,6 +10957,7 @@
    "atk": 1,
    "hp": 1,
    "art": true,
+   "external": false,
    "traits": [
     "Shinigami",
     "Gotei 13",
@@ -9531,6 +10975,7 @@
    "atk": 1,
    "hp": 1,
    "art": true,
+   "external": false,
    "traits": [
     "Hollow"
    ],
@@ -9546,6 +10991,7 @@
    "atk": null,
    "hp": null,
    "art": true,
+   "external": false,
    "traits": [
     "Dragon"
    ],
@@ -9561,6 +11007,7 @@
    "atk": null,
    "hp": null,
    "art": true,
+   "external": false,
    "traits": [
     "Ninja"
    ],
@@ -9576,6 +11023,7 @@
    "atk": 1,
    "hp": 1,
    "art": true,
+   "external": false,
    "traits": [
     "Spirituel"
    ],
@@ -9591,6 +11039,7 @@
    "atk": 2,
    "hp": 1,
    "art": true,
+   "external": false,
    "traits": [
     "Humain",
     "Artiste Martial",
@@ -9613,6 +11062,7 @@
    "atk": null,
    "hp": null,
    "art": true,
+   "external": false,
    "traits": [
     "Silver Soul"
    ],
@@ -9628,6 +11078,7 @@
    "atk": null,
    "hp": null,
    "art": true,
+   "external": false,
    "traits": [
     "Exorciste"
    ],
@@ -9643,6 +11094,7 @@
    "atk": 1,
    "hp": 1,
    "art": true,
+   "external": false,
    "traits": [
     "Humain",
     "Silver Soul"
@@ -9659,6 +11111,7 @@
    "atk": 2,
    "hp": 1,
    "art": true,
+   "external": false,
    "traits": [
     "Démon"
    ],
@@ -9679,6 +11132,7 @@
    "atk": null,
    "hp": null,
    "art": true,
+   "external": false,
    "traits": [
     "Épéiste"
    ],
@@ -9694,6 +11148,7 @@
    "atk": null,
    "hp": null,
    "art": true,
+   "external": false,
    "traits": [],
    "keywords": [],
    "text": "Compteur 3. Au début de chacun de vos tours : votre Leader récupère 1 PV. Dernier Souffle : piochez une carte."
@@ -9707,6 +11162,7 @@
    "atk": 1,
    "hp": 2,
    "art": true,
+   "external": false,
    "traits": [
     "Humain"
    ],
@@ -9722,6 +11178,7 @@
    "atk": null,
    "hp": null,
    "art": true,
+   "external": false,
    "traits": [
     "Démon"
    ],
@@ -9737,6 +11194,7 @@
    "atk": null,
    "hp": null,
    "art": true,
+   "external": false,
    "traits": [
     "Ninja"
    ],
@@ -9752,6 +11210,7 @@
    "atk": null,
    "hp": null,
    "art": true,
+   "external": false,
    "traits": [],
    "keywords": [],
    "text": "Injouable sans Combattant allié. Un Combattant allié ciblé gagne +2 ATK jusqu'à la fin du tour."
@@ -9765,6 +11224,7 @@
    "atk": 1,
    "hp": 1,
    "art": true,
+   "external": false,
    "traits": [
     "Humain",
     "Ninja",
@@ -9787,6 +11247,7 @@
    "atk": 1,
    "hp": 1,
    "art": true,
+   "external": false,
    "traits": [
     "Saibaiman",
     "Super Guerrier"
@@ -9808,6 +11269,7 @@
    "atk": 1,
    "hp": 1,
    "art": true,
+   "external": false,
    "traits": [
     "Malédiction"
    ],
@@ -9823,6 +11285,7 @@
    "atk": null,
    "hp": null,
    "art": true,
+   "external": false,
    "traits": [
     "Sport"
    ],
@@ -9838,6 +11301,7 @@
    "atk": null,
    "hp": null,
    "art": true,
+   "external": false,
    "traits": [
     "Démon"
    ],
@@ -9853,6 +11317,7 @@
    "atk": 1,
    "hp": 1,
    "art": true,
+   "external": false,
    "traits": [
     "Humain",
     "Pirate"
@@ -9869,6 +11334,7 @@
    "atk": 1,
    "hp": 2,
    "art": true,
+   "external": false,
    "traits": [
     "Humain",
     "Épéiste"
@@ -9885,6 +11351,7 @@
    "atk": 1,
    "hp": 1,
    "art": true,
+   "external": false,
    "traits": [
     "Humain",
     "Scolaire"
@@ -9901,6 +11368,7 @@
    "atk": null,
    "hp": null,
    "art": true,
+   "external": false,
    "traits": [
     "Artiste Martial"
    ],
@@ -9916,6 +11384,7 @@
    "atk": null,
    "hp": null,
    "art": true,
+   "external": false,
    "traits": [],
    "keywords": [],
    "text": "Injouable sans Combattant adverse ni sans Combattant sur votre terrain. Inflige à un Combattant adverse ciblé des dégâts égaux au nombre de Combattants sur votre terrain."
@@ -9929,6 +11398,7 @@
    "atk": null,
    "hp": null,
    "art": true,
+   "external": false,
    "traits": [
     "Pirate"
    ],
@@ -9944,6 +11414,7 @@
    "atk": null,
    "hp": null,
    "art": true,
+   "external": false,
    "traits": [
     "Mage"
    ],
@@ -9959,6 +11430,7 @@
    "atk": 2,
    "hp": 2,
    "art": true,
+   "external": false,
    "traits": [
     "Humain",
     "Pirate",
@@ -9981,6 +11453,7 @@
    "atk": 2,
    "hp": 1,
    "art": true,
+   "external": false,
    "traits": [
     "Alien",
     "Silver Soul"
@@ -9997,6 +11470,7 @@
    "atk": 2,
    "hp": 2,
    "art": true,
+   "external": false,
    "traits": [
     "Humain",
     "Scolaire",
@@ -10014,6 +11488,7 @@
    "atk": 1,
    "hp": 3,
    "art": true,
+   "external": false,
    "traits": [
     "Animal",
     "Pirate",
@@ -10032,6 +11507,7 @@
    "atk": null,
    "hp": null,
    "art": true,
+   "external": false,
    "traits": [
     "Furyo"
    ],
@@ -10047,6 +11523,7 @@
    "atk": null,
    "hp": null,
    "art": true,
+   "external": false,
    "traits": [
     "Artiste Martial"
    ],
@@ -10062,6 +11539,7 @@
    "atk": 1,
    "hp": 2,
    "art": true,
+   "external": false,
    "traits": [
     "Démon",
     "Sport"
@@ -10087,6 +11565,7 @@
    "atk": null,
    "hp": null,
    "art": true,
+   "external": false,
    "traits": [
     "Ninja"
    ],
@@ -10102,6 +11581,7 @@
    "atk": 1,
    "hp": 3,
    "art": true,
+   "external": false,
    "traits": [
     "Dragon"
    ],
@@ -10117,6 +11597,7 @@
    "atk": 2,
    "hp": 2,
    "art": true,
+   "external": false,
    "traits": [
     "Dragon"
    ],
@@ -10132,6 +11613,7 @@
    "atk": null,
    "hp": null,
    "art": true,
+   "external": false,
    "traits": [
     "Sport"
    ],
@@ -10147,6 +11629,7 @@
    "atk": 1,
    "hp": 3,
    "art": true,
+   "external": false,
    "traits": [
     "Humain",
     "Malédiction"
@@ -10163,6 +11646,7 @@
    "atk": null,
    "hp": null,
    "art": true,
+   "external": false,
    "traits": [
     "Nen"
    ],
@@ -10178,6 +11662,7 @@
    "atk": null,
    "hp": null,
    "art": true,
+   "external": false,
    "traits": [
     "Nen"
    ],
@@ -10193,6 +11678,7 @@
    "atk": null,
    "hp": null,
    "art": true,
+   "external": false,
    "traits": [
     "Shinigami",
     "Gotei 13",
@@ -10210,6 +11696,7 @@
    "atk": 1,
    "hp": 2,
    "art": true,
+   "external": false,
    "traits": [
     "Shinigami",
     "Gotei 13",
@@ -10227,6 +11714,7 @@
    "atk": null,
    "hp": null,
    "art": true,
+   "external": false,
    "traits": [],
    "keywords": [],
    "text": "Soigne votre Leader de 4 PV. Injouable si votre Leader est déjà au maximum de PV."
@@ -10240,6 +11728,7 @@
    "atk": 3,
    "hp": 1,
    "art": true,
+   "external": false,
    "traits": [
     "Humain",
     "Ninja",
@@ -10257,6 +11746,7 @@
    "atk": 1,
    "hp": 2,
    "art": true,
+   "external": false,
    "traits": [
     "Shinigami",
     "Épéiste",
@@ -10275,6 +11765,7 @@
    "atk": 3,
    "hp": 1,
    "art": true,
+   "external": false,
    "traits": [
     "Humain",
     "Scolaire",
@@ -10292,6 +11783,7 @@
    "atk": 2,
    "hp": 2,
    "art": true,
+   "external": false,
    "traits": [
     "Humain",
     "Malédiction"
@@ -10308,6 +11800,7 @@
    "atk": 1,
    "hp": 3,
    "art": true,
+   "external": false,
    "traits": [
     "Humain",
     "Scolaire",
@@ -10325,6 +11818,7 @@
    "atk": 1,
    "hp": 3,
    "art": true,
+   "external": false,
    "traits": [
     "Humain",
     "Nen"
@@ -10341,6 +11835,7 @@
    "atk": null,
    "hp": null,
    "art": true,
+   "external": false,
    "traits": [
     "Yorozuya",
     "Silver Soul"
@@ -10357,6 +11852,7 @@
    "atk": null,
    "hp": null,
    "art": true,
+   "external": false,
    "traits": [
     "Super Guerrier"
    ],
@@ -10372,6 +11868,7 @@
    "atk": null,
    "hp": null,
    "art": true,
+   "external": false,
    "traits": [
     "Esper"
    ],
@@ -10392,6 +11889,7 @@
    "atk": 2,
    "hp": 1,
    "art": true,
+   "external": false,
    "traits": [
     "Humain",
     "Scolaire",
@@ -10409,6 +11907,7 @@
    "atk": 1,
    "hp": 2,
    "art": true,
+   "external": false,
    "traits": [
     "Démon"
    ],
@@ -10429,6 +11928,7 @@
    "atk": 3,
    "hp": 2,
    "art": true,
+   "external": false,
    "traits": [
     "Humain",
     "Nen",
@@ -10452,6 +11952,7 @@
    "atk": 2,
    "hp": 1,
    "art": true,
+   "external": false,
    "traits": [
     "Humain",
     "Mage"
@@ -10473,6 +11974,7 @@
    "atk": 2,
    "hp": 3,
    "art": true,
+   "external": false,
    "traits": [
     "Exorciste"
    ],
@@ -10493,6 +11995,7 @@
    "atk": null,
    "hp": null,
    "art": true,
+   "external": false,
    "traits": [
     "Épéiste"
    ],
@@ -10508,6 +12011,7 @@
    "atk": null,
    "hp": null,
    "art": true,
+   "external": false,
    "traits": [
     "Sport"
    ],
@@ -10523,6 +12027,7 @@
    "atk": null,
    "hp": null,
    "art": true,
+   "external": false,
    "traits": [
     "Pirate"
    ],
@@ -10538,6 +12043,7 @@
    "atk": null,
    "hp": null,
    "art": true,
+   "external": false,
    "traits": [
     "Mage"
    ],
@@ -10553,6 +12059,7 @@
    "atk": 1,
    "hp": 3,
    "art": true,
+   "external": false,
    "traits": [
     "Spirituel"
    ],
@@ -10568,6 +12075,7 @@
    "atk": null,
    "hp": null,
    "art": true,
+   "external": false,
    "traits": [
     "Furyo"
    ],
@@ -10583,6 +12091,7 @@
    "atk": 1,
    "hp": 3,
    "art": true,
+   "external": false,
    "traits": [
     "Saiyan",
     "Super Guerrier"
@@ -10599,6 +12108,7 @@
    "atk": 2,
    "hp": 2,
    "art": true,
+   "external": false,
    "traits": [
     "Démon",
     "Mage"
@@ -10615,6 +12125,7 @@
    "atk": null,
    "hp": null,
    "art": true,
+   "external": false,
    "traits": [
     "Assassin"
    ],
@@ -10630,6 +12141,7 @@
    "atk": 2,
    "hp": 2,
    "art": true,
+   "external": false,
    "traits": [
     "Humain",
     "Scolaire",
@@ -10653,6 +12165,7 @@
    "atk": 1,
    "hp": 2,
    "art": true,
+   "external": false,
    "traits": [
     "Humain",
     "Pirate"
@@ -10669,6 +12182,7 @@
    "atk": 2,
    "hp": 2,
    "art": true,
+   "external": false,
    "traits": [
     "Humain",
     "Mage",
@@ -10691,6 +12205,7 @@
    "atk": 1,
    "hp": 3,
    "art": true,
+   "external": false,
    "traits": [
     "Démon"
    ],
@@ -10711,6 +12226,7 @@
    "atk": 2,
    "hp": 3,
    "art": true,
+   "external": false,
    "traits": [
     "Humain",
     "Scolaire",
@@ -10733,6 +12249,7 @@
    "atk": 2,
    "hp": 2,
    "art": true,
+   "external": false,
    "traits": [
     "Humain",
     "Scolaire",
@@ -10755,6 +12272,7 @@
    "atk": null,
    "hp": null,
    "art": true,
+   "external": false,
    "traits": [
     "Sport"
    ],
@@ -10770,6 +12288,7 @@
    "atk": null,
    "hp": null,
    "art": true,
+   "external": false,
    "traits": [
     "Esper"
    ],
@@ -10790,6 +12309,7 @@
    "atk": 1,
    "hp": 1,
    "art": true,
+   "external": false,
    "traits": [
     "Humain",
     "Scolaire",
@@ -10807,6 +12327,7 @@
    "atk": 1,
    "hp": 3,
    "art": true,
+   "external": false,
    "traits": [
     "Musique",
     "Humain"
@@ -10823,6 +12344,7 @@
    "atk": 2,
    "hp": 2,
    "art": true,
+   "external": false,
    "traits": [
     "Humain",
     "Artiste Martial",
@@ -10845,6 +12367,7 @@
    "atk": 2,
    "hp": 1,
    "art": true,
+   "external": false,
    "traits": [
     "Humain",
     "Esper",
@@ -10867,6 +12390,7 @@
    "atk": null,
    "hp": null,
    "art": true,
+   "external": false,
    "traits": [
     "Monstre"
    ],
@@ -10882,6 +12406,7 @@
    "atk": null,
    "hp": null,
    "art": true,
+   "external": false,
    "traits": [],
    "keywords": [],
    "text": "Donne +2 PV à un Combattant Scolaire allié ciblé."
@@ -10895,6 +12420,7 @@
    "atk": null,
    "hp": null,
    "art": true,
+   "external": false,
    "traits": [
     "Esper"
    ],
@@ -10910,6 +12436,7 @@
    "atk": 2,
    "hp": 3,
    "art": true,
+   "external": false,
    "traits": [
     "Démon"
    ],
@@ -10930,6 +12457,7 @@
    "atk": null,
    "hp": null,
    "art": true,
+   "external": false,
    "traits": [],
    "keywords": [],
    "text": "Piochez 1 carte."
@@ -10943,6 +12471,7 @@
    "atk": null,
    "hp": null,
    "art": true,
+   "external": false,
    "traits": [
     "Démon"
    ],
@@ -10958,6 +12487,7 @@
    "atk": 3,
    "hp": 2,
    "art": true,
+   "external": false,
    "traits": [
     "Animal",
     "Artiste Martial"
@@ -10979,6 +12509,7 @@
    "atk": null,
    "hp": null,
    "art": true,
+   "external": false,
    "traits": [],
    "keywords": [],
    "text": "Retire 2 ATK (définitif) à un Combattant adverse ciblé."
@@ -10992,6 +12523,7 @@
    "atk": 1,
    "hp": 3,
    "art": true,
+   "external": false,
    "traits": [
     "Humain",
     "Scolaire",
@@ -11014,6 +12546,7 @@
    "atk": 3,
    "hp": 2,
    "art": true,
+   "external": false,
    "traits": [
     "Humain",
     "Scolaire",
@@ -11031,6 +12564,7 @@
    "atk": null,
    "hp": null,
    "art": true,
+   "external": false,
    "traits": [
     "Nen"
    ],
@@ -11046,6 +12580,7 @@
    "atk": 3,
    "hp": 1,
    "art": true,
+   "external": false,
    "traits": [
     "Humain",
     "Ninja"
@@ -11067,6 +12602,7 @@
    "atk": null,
    "hp": null,
    "art": true,
+   "external": false,
    "traits": [
     "Shinigami",
     "Spirituel"
@@ -11083,6 +12619,7 @@
    "atk": 1,
    "hp": 2,
    "art": true,
+   "external": false,
    "traits": [
     "Humain",
     "Cuisine"
@@ -11099,6 +12636,7 @@
    "atk": 3,
    "hp": 2,
    "art": true,
+   "external": false,
    "traits": [
     "Humain",
     "Mage",
@@ -11116,6 +12654,7 @@
    "atk": 3,
    "hp": 3,
    "art": true,
+   "external": false,
    "traits": [
     "Humain",
     "Scolaire",
@@ -11133,6 +12672,7 @@
    "atk": 2,
    "hp": 3,
    "art": true,
+   "external": false,
    "traits": [
     "Humain",
     "Scolaire",
@@ -11157,6 +12697,7 @@
    "atk": null,
    "hp": null,
    "art": true,
+   "external": false,
    "traits": [
     "Nen"
    ],
@@ -11172,6 +12713,7 @@
    "atk": 3,
    "hp": 4,
    "art": true,
+   "external": false,
    "traits": [
     "Humain",
     "Scolaire",
@@ -11195,6 +12737,7 @@
    "atk": 1,
    "hp": 4,
    "art": true,
+   "external": false,
    "traits": [
     "Humain",
     "Ninja"
@@ -11216,6 +12759,7 @@
    "atk": null,
    "hp": null,
    "art": true,
+   "external": false,
    "traits": [
     "Mage"
    ],
@@ -11231,6 +12775,7 @@
    "atk": 3,
    "hp": 3,
    "art": true,
+   "external": false,
    "traits": [
     "Namek",
     "Artiste Martial",
@@ -11253,6 +12798,7 @@
    "atk": null,
    "hp": null,
    "art": true,
+   "external": false,
    "traits": [
     "Exorciste"
    ],
