@@ -2,6 +2,8 @@
  "stats": {
   "cards": 642,
   "fighters": 415,
+  "actions": 171,
+  "tactics": 56,
   "traits": 53
  },
  "cards": [

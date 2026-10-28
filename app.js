@@ -102,9 +102,11 @@
     openCard(current, (index + delta + current.length) % current.length);
   }
 
-  fetch("data/site.json").then(function (r) { return r.json(); }).then(function (data) {
+  fetch("data/site.json", { cache: "no-cache" }).then(function (r) { return r.json(); }).then(function (data) {
     document.getElementById("n-cards").textContent = data.stats.cards;
     document.getElementById("n-fighters").textContent = data.stats.fighters;
+    document.getElementById("n-actions").textContent = data.stats.actions;
+    document.getElementById("n-tactics").textContent = data.stats.tactics;
     document.getElementById("n-traits").textContent = data.stats.traits;
 
     var count = document.getElementById("count"), more = document.getElementById("more");

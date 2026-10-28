@@ -98,7 +98,7 @@ dialog .st b { font-size: 30px; line-height: 1.1; }
 dialog .st.atk b { color: #ff6a5b; } dialog .st.pv b { color: #4cd37a; } dialog .st.cost-st b { color: var(--orange); }
 dialog .note { margin: 0 0 12px; color: var(--muted); font-size: 15px; font-style: italic; }
 dialog .chips { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 14px; }
-dialog .chip { padding: 3px 12px; font-size: 14px; border: 1px solid var(--line); background: #0b121b; border-radius: 20px; }
+dialog .chip { padding: 3px 12px; font-size: 14px; border: 1px solid var(--line); background: #0b121b; border-radius: 3px; }
 dialog .kws { display: grid; gap: 6px; margin-bottom: 14px; }
 dialog .kw { padding: 8px 12px; background: rgba(255, 171, 46, .08); border-left: 3px solid var(--orange); font-size: 15px; }
 dialog .kw b { color: var(--orange); text-transform: uppercase; margin-right: 8px; }
