@@ -1,0 +1,441 @@
+{
+ "stats": {
+  "cards": 589,
+  "fighters": 390,
+  "traits": 53
+ },
+ "featured": [
+  {
+   "key": "majin_vegeta",
+   "name": "Majin Vegeta",
+   "rarity": "legendary",
+   "type": "Combattant",
+   "cost": 6,
+   "atk": 4,
+   "hp": 4
+  },
+  {
+   "key": "genryusai_yamamoto",
+   "name": "Genryusai Yamamoto",
+   "rarity": "legendary",
+   "type": "Combattant",
+   "cost": 9,
+   "atk": 7,
+   "hp": 8
+  },
+  {
+   "key": "polymerisation",
+   "name": "Polymérisation",
+   "rarity": "legendary",
+   "type": "Action",
+   "cost": 5,
+   "atk": null,
+   "hp": null
+  },
+  {
+   "key": "c16",
+   "name": "C-16",
+   "rarity": "legendary",
+   "type": "Combattant",
+   "cost": 8,
+   "atk": 0,
+   "hp": 4
+  },
+  {
+   "key": "commando_ginyu_rassemblement",
+   "name": "Commando Ginyu : Rassemblement",
+   "rarity": "legendary",
+   "type": "Action",
+   "cost": 10,
+   "atk": null,
+   "hp": null
+  },
+  {
+   "key": "super_vegeta",
+   "name": "Vegeta (Super Saiyan)",
+   "rarity": "legendary",
+   "type": "Combattant",
+   "cost": 8,
+   "atk": 5,
+   "hp": 6
+  },
+  {
+   "key": "erza_scarlet",
+   "name": "Erza Scarlet",
+   "rarity": "legendary",
+   "type": "Combattant",
+   "cost": 6,
+   "atk": 5,
+   "hp": 1
+  },
+  {
+   "key": "monkey_d_luffy",
+   "name": "Monkey D. Luffy",
+   "rarity": "legendary",
+   "type": "Combattant",
+   "cost": 7,
+   "atk": 6,
+   "hp": 6
+  },
+  {
+   "key": "toshiro_hitsugaya",
+   "name": "Toshiro Hitsugaya",
+   "rarity": "legendary",
+   "type": "Combattant",
+   "cost": 8,
+   "atk": 6,
+   "hp": 5
+  },
+  {
+   "key": "capitaine_ginyu",
+   "name": "Capitaine Ginyu",
+   "rarity": "legendary",
+   "type": "Combattant",
+   "cost": 4,
+   "atk": 2,
+   "hp": 2
+  },
+  {
+   "key": "soma_style_yukihira",
+   "name": "Soma (Style Yukihira)",
+   "rarity": "legendary",
+   "type": "Combattant",
+   "cost": 7,
+   "atk": 6,
+   "hp": 6
+  },
+  {
+   "key": "hiei",
+   "name": "Hiei",
+   "rarity": "legendary",
+   "type": "Combattant",
+   "cost": 7,
+   "atk": 5,
+   "hp": 2
+  },
+  {
+   "key": "balalaika",
+   "name": "Balalaika",
+   "rarity": "epic",
+   "type": "Combattant",
+   "cost": 5,
+   "atk": 4,
+   "hp": 4
+  },
+  {
+   "key": "daki",
+   "name": "Daki",
+   "rarity": "epic",
+   "type": "Combattant",
+   "cost": 5,
+   "atk": 2,
+   "hp": 5
+  },
+  {
+   "key": "sogiita_gunha",
+   "name": "Sogiita Gunha",
+   "rarity": "epic",
+   "type": "Combattant",
+   "cost": 5,
+   "atk": 4,
+   "hp": 5
+  },
+  {
+   "key": "shuna",
+   "name": "Shuna",
+   "rarity": "epic",
+   "type": "Combattant",
+   "cost": 5,
+   "atk": 1,
+   "hp": 5
+  },
+  {
+   "key": "coco",
+   "name": "Coco",
+   "rarity": "epic",
+   "type": "Combattant",
+   "cost": 4,
+   "atk": 3,
+   "hp": 2
+  },
+  {
+   "key": "livebearer",
+   "name": "Livebearer",
+   "rarity": "epic",
+   "type": "Combattant",
+   "cost": 5,
+   "atk": 3,
+   "hp": 4
+  },
+  {
+   "key": "dante_zogratis",
+   "name": "Dante Zogratis",
+   "rarity": "epic",
+   "type": "Combattant",
+   "cost": 5,
+   "atk": 4,
+   "hp": 5
+  },
+  {
+   "key": "zeno_zoldyck",
+   "name": "Zeno Zoldyck",
+   "rarity": "epic",
+   "type": "Combattant",
+   "cost": 6,
+   "atk": 5,
+   "hp": 5
+  },
+  {
+   "key": "shunsui_kyoraku",
+   "name": "Shunsui Kyoraku",
+   "rarity": "epic",
+   "type": "Combattant",
+   "cost": 4,
+   "atk": 3,
+   "hp": 4
+  },
+  {
+   "key": "cercle_de_sang",
+   "name": "Cercle de Sang",
+   "rarity": "epic",
+   "type": "Tactique",
+   "cost": 3,
+   "atk": null,
+   "hp": null
+  },
+  {
+   "key": "zoro",
+   "name": "Zoro",
+   "rarity": "epic",
+   "type": "Combattant",
+   "cost": 4,
+   "atk": 4,
+   "hp": 3
+  },
+  {
+   "key": "erina_nakiri",
+   "name": "Erina Nakiri",
+   "rarity": "epic",
+   "type": "Combattant",
+   "cost": 4,
+   "atk": 4,
+   "hp": 3
+  },
+  {
+   "key": "zaryusu_shasha",
+   "name": "Zaryusu Shasha",
+   "rarity": "rare",
+   "type": "Combattant",
+   "cost": 4,
+   "atk": 3,
+   "hp": 4
+  },
+  {
+   "key": "esprit_d_equipe",
+   "name": "Esprit d'Équipe",
+   "rarity": "rare",
+   "type": "Tactique",
+   "cost": 4,
+   "atk": null,
+   "hp": null
+  },
+  {
+   "key": "power_chainsaw",
+   "name": "Power",
+   "rarity": "rare",
+   "type": "Combattant",
+   "cost": 3,
+   "atk": 3,
+   "hp": 2
+  },
+  {
+   "key": "potentiel_latent",
+   "name": "Potentiel Latent",
+   "rarity": "rare",
+   "type": "Action",
+   "cost": 6,
+   "atk": null,
+   "hp": null
+  },
+  {
+   "key": "otose",
+   "name": "Otose",
+   "rarity": "rare",
+   "type": "Combattant",
+   "cost": 3,
+   "atk": 1,
+   "hp": 4
+  },
+  {
+   "key": "bagarre_generale",
+   "name": "Bagarre Générale",
+   "rarity": "rare",
+   "type": "Action",
+   "cost": 4,
+   "atk": null,
+   "hp": null
+  },
+  {
+   "key": "ordre_de_mission",
+   "name": "Ordre de Mission",
+   "rarity": "rare",
+   "type": "Tactique",
+   "cost": 3,
+   "atk": null,
+   "hp": null
+  },
+  {
+   "key": "jinbe",
+   "name": "Jinbe",
+   "rarity": "rare",
+   "type": "Combattant",
+   "cost": 4,
+   "atk": 3,
+   "hp": 5
+  },
+  {
+   "key": "axel_blaze",
+   "name": "Axel Blaze",
+   "rarity": "rare",
+   "type": "Combattant",
+   "cost": 3,
+   "atk": 3,
+   "hp": 2
+  },
+  {
+   "key": "escalier_interminable",
+   "name": "Escalier Interminable",
+   "rarity": "rare",
+   "type": "Action",
+   "cost": 2,
+   "atk": null,
+   "hp": null
+  },
+  {
+   "key": "awaki_musujime",
+   "name": "Awaki Musujime",
+   "rarity": "rare",
+   "type": "Combattant",
+   "cost": 3,
+   "atk": 2,
+   "hp": 3
+  },
+  {
+   "key": "nikaido",
+   "name": "Nikaido",
+   "rarity": "rare",
+   "type": "Combattant",
+   "cost": 3,
+   "atk": 2,
+   "hp": 4
+  },
+  {
+   "key": "wandering_musician",
+   "name": "Musicien Errant",
+   "rarity": "common",
+   "type": "Combattant",
+   "cost": 2,
+   "atk": 1,
+   "hp": 3
+  },
+  {
+   "key": "coup_bas",
+   "name": "Coup Bas",
+   "rarity": "common",
+   "type": "Action",
+   "cost": 2,
+   "atk": null,
+   "hp": null
+  },
+  {
+   "key": "goblin",
+   "name": "Goblin",
+   "rarity": "common",
+   "type": "Combattant",
+   "cost": 1,
+   "atk": 1,
+   "hp": 2
+  },
+  {
+   "key": "kon",
+   "name": "Kon",
+   "rarity": "common",
+   "type": "Combattant",
+   "cost": 1,
+   "atk": 1,
+   "hp": 1
+  },
+  {
+   "key": "coup_decisif",
+   "name": "Coup Décisif",
+   "rarity": "common",
+   "type": "Action",
+   "cost": 2,
+   "atk": null,
+   "hp": null
+  },
+  {
+   "key": "nuit_etoilee",
+   "name": "Nuit étoilée",
+   "rarity": "common",
+   "type": "Tactique",
+   "cost": 1,
+   "atk": null,
+   "hp": null
+  },
+  {
+   "key": "chopper",
+   "name": "Chopper",
+   "rarity": "common",
+   "type": "Combattant",
+   "cost": 2,
+   "atk": 1,
+   "hp": 3
+  },
+  {
+   "key": "panda",
+   "name": "Panda",
+   "rarity": "common",
+   "type": "Combattant",
+   "cost": 2,
+   "atk": 2,
+   "hp": 3
+  },
+  {
+   "key": "gyo",
+   "name": "Gyo",
+   "rarity": "common",
+   "type": "Action",
+   "cost": 2,
+   "atk": null,
+   "hp": null
+  },
+  {
+   "key": "otto_suwen",
+   "name": "Otto Suwen",
+   "rarity": "common",
+   "type": "Combattant",
+   "cost": 1,
+   "atk": 1,
+   "hp": 2
+  },
+  {
+   "key": "tir_decisif",
+   "name": "Tir Décisif",
+   "rarity": "common",
+   "type": "Action",
+   "cost": 1,
+   "atk": null,
+   "hp": null
+  },
+  {
+   "key": "ritsu_kageyama",
+   "name": "Ritsu Kageyama",
+   "rarity": "common",
+   "type": "Combattant",
+   "cost": 2,
+   "atk": 2,
+   "hp": 2
+  }
+ ]
+}

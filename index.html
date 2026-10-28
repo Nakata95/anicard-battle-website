@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AniCard Battle — le jeu de cartes des univers d'anime</title>
+<meta name="description" content="AniCard Battle : un jeu de cartes à collectionner 1 contre 1 où s'affrontent des personnages d'anime. Beta en cours.">
+<meta property="og:title" content="AniCard Battle">
+<meta property="og:description" content="Un jeu de cartes à collectionner 1 contre 1 dans l'univers de tes animes préférés. Beta en cours.">
+<meta property="og:image" content="img/title.webp">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;600;700&display=swap">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="nav"><div class="wrap">
+  <a class="brand" href="#top">AniCard Battle</a>
+  <a class="link" href="#jeu">Le jeu</a>
+  <a class="link" href="#cartes">Les cartes</a>
+  <a class="link" href="#modes">Les modes</a>
+  <a class="link" href="#avenir">À venir</a>
+  <a class="btn discord" href="#">Discord</a>
+</div></header>
+
+<div class="hero" id="top"><div class="inner wrap">
+  <span class="badge">Beta en cours</span>
+  <img class="logo" src="img/logo.png" alt="AniCard Battle — Collectible Card Game">
+  <p class="tag">Des centaines de personnages d'anime, un duel de cartes 1 contre 1.</p>
+  <p class="tag" style="color:var(--muted);font-size:18px">Construis ton deck, fais évoluer tes combattants et écrase le Leader adverse.</p>
+  <div class="actions">
+    <a class="btn discord" href="#">Rejoindre le Discord</a>
+    <a class="btn ghost" href="#jeu">Découvrir le jeu</a>
+  </div>
+</div></div>
+
+<section id="jeu"><div class="wrap">
+  <h2>Le jeu</h2>
+  <p class="lead">Chaque joueur dirige un Leader et un deck de 40 cartes. Pose des combattants, joue des actions, déploie des tactiques et descends les PV du Leader adverse à zéro.</p>
+  <div class="grid">
+    <div class="tile"><h3>Évolution Zenkai</h3><p>Accumule des points Zenkai pour faire évoluer un combattant en pleine bataille : plus de stats, de nouveaux effets.</p></div>
+    <div class="tile"><h3>Nekketsu</h3><p>Ta ressource grandit à chaque tour. À toi de décider : une grosse carte, ou plusieurs petites.</p></div>
+    <div class="tile"><h3>Mots-clés</h3><p>Rempart, Rush, Drain, Dissimulation, Double Attaque, Frappe critique… chaque mot-clé change la façon de jouer.</p></div>
+    <div class="tile"><h3>Archétypes</h3><p>Dragons, ninjas, démons, exorcistes, mages, machines… des decks pensés autour de leurs traits et de leurs synergies.</p></div>
+  </div>
+  <div class="shots">
+    <figure><img loading="lazy" src="img/menu.webp" alt="Menu principal du jeu"><figcaption>Le menu principal</figcaption></figure>
+    <figure><img loading="lazy" src="img/ai.webp" alt="Choix de l'adversaire et de la difficulté"><figcaption>Choisis ton adversaire et la difficulté</figcaption></figure>
+    <figure><img loading="lazy" src="img/board.webp" alt="Plateau de combat"><figcaption>Un duel en cours</figcaption></figure>
+  </div>
+</div></section>
+
+<section id="cartes"><div class="wrap">
+  <h2>Les cartes</h2>
+  <p class="lead">Un aperçu de la collection. Clique sur une carte pour la voir en grand.</p>
+  <div class="stats">
+    <div><b id="n-cards">–</b><span>cartes</span></div>
+    <div><b id="n-fighters">–</b><span>combattants</span></div>
+    <div><b id="n-traits">–</b><span>traits</span></div>
+  </div>
+  <div class="filters">
+    <button type="button" data-f="all" aria-pressed="true">Toutes</button>
+    <button type="button" data-f="legendary" aria-pressed="false">Légendaires</button>
+    <button type="button" data-f="epic" aria-pressed="false">Épiques</button>
+    <button type="button" data-f="rare" aria-pressed="false">Rares</button>
+    <button type="button" data-f="common" aria-pressed="false">Communes</button>
+    <input id="search" type="search" placeholder="Chercher un nom…" aria-label="Chercher une carte">
+  </div>
+  <div class="cards" id="cards"></div>
+  <p class="hint">Sélection d'illustrations : de nouvelles cartes arrivent régulièrement.</p>
+  <dialog id="zoom"><img alt=""><div class="cap"><b></b><span></span></div></dialog>
+</div></section>
+
+<section id="modes"><div class="wrap">
+  <h2>Les modes de jeu</h2>
+  <p class="lead">Seul ou prêt à se mesurer aux autres, il y a de quoi s'occuper.</p>
+  <div class="grid">
+    <div class="tile"><h3>Duel contre l'IA</h3><p>Trois niveaux de difficulté. L'IA planifie ses tours et anticipe tes coups.</p></div>
+    <div class="tile"><h3>Donjons</h3><p>Enchaîne des combats contre des boss pour obtenir des récompenses.</p></div>
+    <div class="tile"><h3>Puzzles</h3><p>Une situation de jeu, un seul tour pour gagner. Trouve la bonne combinaison.</p></div>
+    <div class="tile"><h3>Expéditions</h3><p>Explore, affronte des adversaires et ramène de quoi enrichir ta collection.</p></div>
+    <div class="tile"><h3>Tutoriel</h3><p>Apprends les règles pas à pas, sans pression.</p></div>
+    <div class="tile soon"><h3>Multijoueur en ligne</h3><p>Bientôt : affronte d'autres joueurs en duel.</p></div>
+  </div>
+</div></section>
+
+<section id="avenir"><div class="wrap">
+  <h2>À venir</h2>
+  <p class="lead">Le jeu est en beta : il évolue vite. Voici ce qu'on prépare, sans date pour l'instant.</p>
+  <ul class="road">
+    <li><b>Multijoueur en ligne</b> — des duels contre d'autres joueurs.</li>
+    <li><b>Nouveaux archétypes</b> — de nouveaux decks et de nouvelles synergies à explorer.</li>
+    <li><b>Nouvelles cartes et nouveaux packs</b> — la collection grandit à chaque mise à jour.</li>
+    <li><b>Autres plateformes</b> — pour jouer où tu veux.</li>
+  </ul>
+</div></section>
+
+<section class="cta"><div class="wrap">
+  <h2 style="display:inline-block">Suivre le projet</h2>
+  <p class="lead" style="margin-inline:auto">Annonces, retours, idées de cartes : tout se passe sur le Discord.</p>
+  <a class="btn discord" href="#">Rejoindre le Discord</a>
+</div></section>
+
+<footer><div class="wrap">
+  <p>AniCard Battle est un projet de fan, gratuit et sans but lucratif, en cours de développement.</p>
+  <p>Les personnages, œuvres et illustrations appartiennent à leurs ayants droit respectifs. Ce projet n'est affilié à aucun studio ni éditeur.</p>
+</div></footer>
+
+<script src="config.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
