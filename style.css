@@ -151,3 +151,4 @@ header.nav a[aria-current="page"] { color: var(--orange); }
 .rule h3 { margin: 0 0 4px; font-size: 20px; text-transform: uppercase; color: var(--orange); }
 .rule p { margin: 0; color: var(--text); font-size: 17px; }
 @media (max-width: 760px) { .rules-layout { grid-template-columns: 1fr; } .toc { position: static; grid-auto-flow: column; overflow-x: auto; } .toc a { white-space: nowrap; } }
+
